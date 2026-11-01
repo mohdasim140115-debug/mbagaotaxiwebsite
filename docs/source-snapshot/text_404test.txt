@@ -1,0 +1,6 @@
+
+=== SECTION 0: section.error-404.not-found
+<h1 .page-title> This page doesn't seem to exist.
+<h3 .page-sub-title> It looks like the link pointing here was faulty. Maybe try searching?
+<span .screen-reader-text> Search for:
+<span> Search

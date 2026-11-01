@@ -1,0 +1,98 @@
+
+=== SECTION 1: section.mba-fleet
+<span .mba-section-tag> OUR FLEET
+<h2 .mba-section-title> Choose Your Perfect Ride
+<p .mba-section-description> Clean, comfortable and well-maintained vehicles for airport transfers, sightseeing and customised Goa tours.
+<span .mba-fleet-badge> BOARDING PASS
+<img> src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTESKr24JLVldgs3cU1tSHYxXnHqPIiTQaOqKxjnOMgZA&s=10 alt= alt=""
+<h3> Dzire
+<div .mba-fleet-seat> 4 Seater
+<span> Airport Pickup
+<strong> ₹1,250
+<span> 8 Hrs / 80 Km
+<strong> ₹2,500
+<span> ₹200 / Hour
+<span> ₹20 / Km
+<a href=https://wa.me/919000000000?text=I%20want%20to%20book%20Dzire target=_blank> Book on WhatsApp
+<span .mba-fleet-badge> BOARDING PASS
+<img> src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv2g4MFvlDUXqRcDC9vlNHkoXlPbFXP2drqIgI2VZPMxTxWUWEsJBcZQg&s=10 alt="Ertiga"
+<h3> Ertiga
+<div .mba-fleet-seat> 6 Seater
+<span> Airport Pickup
+<strong> ₹1,550
+<span> 8 Hrs / 80 Km
+<strong> ₹3,000
+<span> ₹200 / Hour
+<span> ₹22 / Km
+<a href=https://wa.me/919000000000?text=I%20want%20to%20book%20Ertiga target=_blank> Book on WhatsApp
+<span .mba-fleet-badge> BOARDING PASS
+<img> src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX64fu5MKNMteLMg9O_hiMJ7WXxCgSWKAfqKhnPSDNEA&s=10 alt="Innova"
+<h3> Innova
+<div .mba-fleet-seat> 7 Seater
+<span> Airport Pickup
+<strong> ₹1,750
+<span> 8 Hrs / 80 Km
+<strong> ₹3,500
+<span> ₹250 / Hour
+<span> ₹25 / Km
+<a href=https://wa.me/919000000000?text=I%20want%20to%20book%20Innova target=_blank> Book on WhatsApp
+<span .mba-fleet-badge> BOARDING PASS
+<img> src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHfNahkUvTCUcYRHOYSHM--BOfVJusGCEyFeCltpEnnQ&s=10 alt="Innova Crysta"
+<h3> Innova Crysta
+<div .mba-fleet-seat> 7 Seater
+<span> Airport Pickup
+<strong> ₹2,250
+<span> 8 Hrs / 80 Km
+<strong> ₹4,000
+<span> ₹300 / Hour
+<span> ₹35 / Km
+<a href=https://wa.me/919000000000?text=I%20want%20to%20book%20Innova%20Crysta target=_blank> Book on WhatsApp
+
+=== SECTION 3: section.mba-airport
+<span .mba-section-tag> Airport Transfers
+<h2 .mba-section-title> Luxury Airport Pickup & Drop Service
+<p .mba-section-description> Enjoy hassle-free airport transfers from Dabolim and Mopa Airport. Professional chauffeurs, fixed pricing, flight tracking and comfortable vehicles available 24×7.
+<img> src=https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1400&q=80 alt="Airport Transfer"
+<h4> Dabolim & Mopa Airport
+<p> 24×7 Pickup & Drop Service
+<h3> Start Your Goa Trip Without Any Stress
+<p> Whether you’re arriving early in the morning or landing late at night, our experienced local drivers ensure a safe, comfortable and timely journey to your destination.
+<strong> Flight Tracking
+<span> We monitor delays & arrivals.
+<strong> Fixed Pricing
+<span> No hidden charges.
+<strong> Professional Drivers
+<span> Verified local chauffeurs.
+<strong> 24×7 Support
+<span> WhatsApp assistance anytime.
+<h3> Maruti Dzire
+<span> 4 Seater Sedan
+<div .mba-airport-price> ₹1,250
+<li> Airport Pickup Included
+<li> Air Conditioned Vehicle
+<li> Professional Driver
+<a href=https://wa.me/919002070068?text=Hi MBA Travels, I would like to book the Maruti Dzire Airport Pickup. target=_blank> Book Now
+<h3> Maruti Ertiga
+<span> 6 Seater MPV
+<div .mba-airport-price> ₹1,550
+<li> Airport Pickup Included
+<li> Spacious Family Vehicle
+<li> Comfortable AC Ride
+<a href=https://wa.me/919002070068?text=Hi MBA Travels, I would like to book the Maruti Ertiga Airport Pickup. target=_blank> Book Now
+<h3> Toyota Innova
+<span> 7 Seater SUV
+<div .mba-airport-price> ₹1,750
+<li> Premium Interior
+<li> Extra Luggage Space
+<li> Airport Meet & Greet
+<a href=https://wa.me/919002070068?text=Hi MBA Travels, I would like to book the Toyota Innova Airport Pickup. target=_blank> Book Now
+<h3> Innova Crysta
+<span> Luxury 7 Seater
+<div .mba-airport-price> ₹2,250
+<li> Luxury Experience
+<li> Premium Chauffeur
+<li> Best For Families & Groups
+<a href=https://wa.me/919002070068?text=Hi MBA Travels, I would like to book the Innova Crysta Airport Pickup. target=_blank> Book Now
+<h3> Ready To Book Your Airport Transfer?
+<p> From solo travellers to large families, we have the perfect vehicle waiting for you. Contact us now and enjoy a comfortable ride anywhere in Goa.
+<a href=https://wa.me/919002070068?text=Hi MBA Travels, I would like to book an Airport Transfer. target=_blank> Book Airport Transfer

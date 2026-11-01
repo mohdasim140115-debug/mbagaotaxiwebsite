@@ -1,0 +1,224 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------
+   Design tokens — see docs/design-system.md
+   ------------------------------------------------------------------ */
+:root {
+  --ink-900: #0a1a2b;
+  --ink-700: #2c4054;
+  --ink-500: #53697a;
+  --paper: #faf7f0;
+  --paper-raised: #ffffff;
+  --sand-100: #f1eadb;
+  --line: #e5dcc8;
+  --ocean-900: #061626;
+  --ocean-800: #0b2a44;
+  --ocean-700: #123a5c;
+  --teal-600: #0f7c7a;
+  --teal-700: #0b6563;
+  --teal-50: #e6f4f3;
+  --sunset-500: #f07a2b;
+  --sunset-600: #c2410c;
+  --sunset-50: #fff1e6;
+  --whatsapp: #1b7f45;
+  --success: #1f7a4d;
+  --danger: #b42318;
+  --danger-50: #fef3f2;
+
+  --shadow-1: 0 1px 2px rgb(10 26 43 / 0.05), 0 6px 16px -8px rgb(10 26 43 / 0.12);
+  --shadow-2: 0 22px 44px -20px rgb(10 26 43 / 0.34), 0 2px 6px rgb(10 26 43 / 0.06);
+  --shadow-3: 0 24px 48px -16px rgb(11 30 45 / 0.3);
+
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-ink-900: var(--ink-900);
+  --color-ink-700: var(--ink-700);
+  --color-ink-500: var(--ink-500);
+  --color-paper: var(--paper);
+  --color-paper-raised: var(--paper-raised);
+  --color-sand-100: var(--sand-100);
+  --color-line: var(--line);
+  --color-ocean-900: var(--ocean-900);
+  --color-ocean-800: var(--ocean-800);
+  --color-ocean-700: var(--ocean-700);
+  --color-teal-600: var(--teal-600);
+  --color-teal-700: var(--teal-700);
+  --color-teal-50: var(--teal-50);
+  --color-sunset-500: var(--sunset-500);
+  --color-sunset-600: var(--sunset-600);
+  --color-sunset-50: var(--sunset-50);
+  --color-whatsapp: var(--whatsapp);
+  --color-success: var(--success);
+  --color-danger: var(--danger);
+  --color-danger-50: var(--danger-50);
+
+  --font-display: var(--font-fraunces), ui-serif, Georgia, serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+
+  --shadow-1: var(--shadow-1);
+  --shadow-2: var(--shadow-2);
+  --shadow-3: var(--shadow-3);
+
+  --ease-out: var(--ease-out);
+
+  --breakpoint-sm: 40rem;
+  --breakpoint-md: 48rem;
+  --breakpoint-lg: 64rem;
+  --breakpoint-xl: 80rem;
+  --breakpoint-2xl: 90rem;
+}
+
+/* Fluid type scale */
+:root {
+  --step-display: clamp(2.5rem, 1.6rem + 4vw, 4.5rem);
+  --step-h1: clamp(2.125rem, 1.5rem + 2.8vw, 3.5rem);
+  --step-h2: clamp(1.75rem, 1.35rem + 1.7vw, 2.5rem);
+  --step-h3: clamp(1.3125rem, 1.2rem + 0.4vw, 1.625rem);
+  --step-body: clamp(1rem, 0.97rem + 0.12vw, 1.0625rem);
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-padding-top: 88px;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink-900);
+  font-family: var(--font-sans);
+  font-size: var(--step-body);
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+}
+
+/* Component classes live in a cascade layer so Tailwind utilities can override them. */
+@layer components {
+.font-display {
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
+  letter-spacing: -0.01em;
+}
+
+.fs-display { font-size: var(--step-display); line-height: 1.05; }
+.fs-h1 { font-size: var(--step-h1); line-height: 1.1; }
+.fs-h2 { font-size: var(--step-h2); line-height: 1.15; }
+.fs-h3 { font-size: var(--step-h3); line-height: 1.25; }
+
+.eyebrow {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--teal-700);
+}
+
+.container-content { width: 100%; max-width: 1200px; margin-inline: auto; padding-inline: 16px; }
+.container-wide { width: 100%; max-width: 1360px; margin-inline: auto; padding-inline: 16px; }
+.container-prose { width: 100%; max-width: 720px; margin-inline: auto; padding-inline: 16px; }
+@media (min-width: 40rem) {
+  .container-content, .container-wide, .container-prose { padding-inline: 24px; }
+}
+@media (min-width: 64rem) {
+  .container-content, .container-wide, .container-prose { padding-inline: 32px; }
+}
+
+.section-y { padding-block: 64px; }
+@media (min-width: 64rem) { .section-y { padding-block: 104px; } }
+}
+
+/* Focus: visible ring on every interactive element */
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 2px solid var(--teal-600);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Reveal-on-scroll with CSS scroll-driven animations: no JS, no hydration impact.
+   Browsers without support (or with reduced motion) simply show the content. */
+/* Transform only: content is never invisible (screenshots, print, crawler renderers). */
+@keyframes reveal-up {
+  from { transform: translateY(48px) scale(0.97); }
+  to { transform: none; }
+}
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    [data-reveal] {
+      animation: reveal-up linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 45%;
+    }
+  }
+}
+
+/* Perforated ticket edge for fleet cards */
+.ticket-perforation {
+  background-image: radial-gradient(circle at 0 50%, var(--paper) 9px, transparent 10px),
+    radial-gradient(circle at 100% 50%, var(--paper) 9px, transparent 10px);
+}
+
+.prose-cms p { margin-block: 0 1em; }
+.prose-cms ul { list-style: disc; padding-left: 1.25em; margin-block: 0 1em; }
+.prose-cms li { margin-block: 0.25em; }
+.prose-cms h2 { font-family: var(--font-display); font-size: var(--step-h3); font-weight: 600; line-height: 1.25; margin-block: 1.75em 0.5em; color: var(--ink-900); }
+.prose-cms > h2:first-child { margin-top: 0; }
+.prose-cms h3 { font-family: var(--font-display); font-size: var(--step-h3); margin-block: 1.5em 0.5em; color: var(--ink-900); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+}
+
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
+/* ---------------------------------------------------------------- motion
+   Transform-only (content is never hidden), and all of it is off for reduced-motion users. */
+@keyframes hero-rise { from { transform: translateY(32px); } to { transform: none; } }
+@keyframes kenburns { from { transform: scale(1); } to { transform: scale(1.12); } }
+@keyframes float-y { 0%, 100% { translate: 0 0; } 50% { translate: 0 -12px; } }
+@keyframes ring-pulse { 0% { box-shadow: 0 0 0 0 rgb(240 122 43 / 0.55); } 70%, 100% { box-shadow: 0 0 0 14px rgb(240 122 43 / 0); } }
+@keyframes shine { from { transform: translateX(-120%) skewX(-20deg); } to { transform: translateX(260%) skewX(-20deg); } }
+@keyframes progress { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+@media (prefers-reduced-motion: no-preference) {
+  .hero-stagger > * { animation: hero-rise 0.9s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+  .hero-stagger > *:nth-child(2) { animation-delay: 0.1s; }
+  .hero-stagger > *:nth-child(3) { animation-delay: 0.2s; }
+  .hero-stagger > *:nth-child(4) { animation-delay: 0.3s; }
+  .hero-stagger > *:nth-child(5) { animation-delay: 0.4s; }
+  .hero-kenburns { animation: kenburns 9s ease-out both; }
+  .float-y { animation: float-y 5s ease-in-out infinite; }
+
+  /* Cards lift and their photos zoom on hover (separate "translate" property so it never fights the reveal animation). */
+  li[data-reveal] { transition: translate 0.35s cubic-bezier(0.2, 0.8, 0.2, 1); }
+  li[data-reveal] img { transition: transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1); }
+  @media (hover: hover) {
+    li[data-reveal]:hover { translate: 0 -6px; }
+    li[data-reveal]:hover img { transform: scale(1.06); }
+  }
+
+  /* Orange buttons get a light sweep on hover. */
+  .btn-shine::after { content: ""; position: absolute; inset: 0 auto 0 0; width: 40%; background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.35), transparent); transform: translateX(-120%) skewX(-20deg); }
+  .btn-shine:hover::after { animation: shine 0.8s ease; }
+
+  /* Pulsing ring on the sticky mobile Book button. */
+  .pulse-ring { animation: ring-pulse 2.2s ease-out infinite; }
+}
+
+/* Scroll progress bar along the top edge. */
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) {
+    body::before {
+      content: ""; position: fixed; inset: 0 0 auto 0; height: 3px; z-index: 80; pointer-events: none;
+      background: linear-gradient(90deg, #ff6a1f, #ffc56b); transform-origin: 0 50%;
+      animation: progress linear both; animation-timeline: scroll(root);
+    }
+  }
+}

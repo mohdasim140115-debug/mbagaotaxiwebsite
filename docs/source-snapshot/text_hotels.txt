@@ -1,0 +1,99 @@
+
+=== SECTION 1: section.mba-hotels
+<span .mba-section-tag> GOA HOTELS
+<h2 .mba-section-title> Handpicked Hotels & Resorts
+<p .mba-section-description> Discover comfortable stays across Goa with the best prices, personalized assistance and instant booking support.
+<img> src=https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-16-53-035_com.openai.chatgpt.jpg-e1785837604568.jpeg alt="Royal Nirvana Resort"
+<img> src=https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-17-14-699_com.openai.chatgpt.jpg-e1785837636812.jpeg alt="Royal Nirvana Resort"
+<img> src=https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-17-19-423_com.openai.chatgpt.jpg-e1785837527752.jpeg alt="Royal Nirvana Resort"
+<img> src=https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-16-58-969_com.openai.chatgpt.jpg-e1785837665569.jpeg alt="Royal Nirvana Resort"
+<img> src=https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-17-26-058_com.openai.chatgpt.jpg-e1785837582427.jpeg alt="Royal Nirvana Resort"
+<h3> Royal Nirvana Resort
+<span .mba-price> ₹9,300
+<p> Comfortable resort perfect for families and couples looking for a relaxing stay in Goa.
+<span> Free WiFi
+<span> Swimming Pool
+<span> Restaurant
+<span> Parking
+<a href=https://whatsform.com/kkpjba target=_blank> WhatsApp
+<a href=tel:+919322073068> Call Now
+<img> src=https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-27-15-115_com.openai.chatgpt.jpg-e1785837929690.jpeg alt="WS Beach Resort"
+<img> src=https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-27-19-248_com.openai.chatgpt.jpg-e1785837976642.jpeg alt="WS Beach Resort"
+<img> src=https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-27-32-060_com.openai.chatgpt.jpg-e1785838015169.jpeg alt="WS Beach Resort"
+<h3> WS Beach Resort
+<span .mba-price> ₹10,800
+<p> Beachside resort offering comfort, convenience and relaxing surroundings.
+<span> Free WiFi
+<span> Pool
+<span> Restaurant
+<span> Parking
+<a href=https://whatsform.com/kkpjba target=_blank> WhatsApp
+<a href=tel:+919322073068> Call Now
+<img> src=https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-42-06-645_com.openai.chatgpt.jpg-e1785838168981.jpeg alt="Palmarinha Resort"
+<img> src=https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-41-49-526_com.openai.chatgpt.jpg-e1785838194368.jpeg alt="Palmarinha Resort"
+<img> src=https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-42-01-700_com.openai.chatgpt.jpg-e1785838221644.jpeg alt="Palmarinha Resort"
+<img> src=https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-41-55-653_com.openai.chatgpt.jpg-e1785838146401.jpeg alt="Palmarinha Resort"
+<h3> Palmarinha Resort
+<small> Starting From
+<span .mba-price> ₹10,800
+<p> Spacious accommodation with excellent hospitality, perfect for guests looking for a relaxing holiday in Goa.
+<span> Free WiFi
+<span> Swimming Pool
+<span> Restaurant
+<span> Parking
+<a href=https://whatsform.com/kkpjba target=_blank> WhatsApp
+<a href=tel:+919322073068> Call Now
+<img> src=https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-47-10-095_com.openai.chatgpt.jpg-e1785838411236.jpeg alt="The Flora Residency"
+<img> src=https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-53-31-056_com.openai.chatgpt.jpg-e1785838350582.jpeg alt="The Flora Residency"
+<img> src=https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-53-36-041_com.openai.chatgpt.jpg-e1785838369869.jpeg alt="The Flora Residency"
+<img> src=https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-47-16-379_com.openai.chatgpt.jpg-e1785838388831.jpeg alt="The Flora Residency"
+<h3> The Flora Residency
+<small> Starting From
+<span .mba-price> ₹11,400
+<p> A modern and comfortable stay offering elegant rooms, excellent hospitality and easy access to Goa’s popular attractions.
+<span> Free WiFi
+<span> Swimming Pool
+<span> Restaurant
+<span> Parking
+<a href=https://whatsform.com/kkpjba target=_blank> WhatsApp
+<a href=tel:+919322073068> Call Now
+<img> src=https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-22-07-30-668_com.openai.chatgpt.jpg-e1785838561446.jpeg alt="Neelam The Glitz"
+<img> src=https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-22-08-34-579_com.openai.chatgpt.jpg-e1785838581201.jpeg alt="Neelam The Glitz"
+<img> src=https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-22-07-41-682_com.openai.chatgpt.jpg-e1785838603143.jpeg alt="Neelam The Glitz"
+<img> src=https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-22-07-25-459_com.openai.chatgpt.jpg-e1785838686689.jpeg alt="Neelam The Glitz"
+<h3> Neelam The Glitz
+<small> Starting From
+<span .mba-price> ₹13,500
+<p> Enjoy a stylish stay with spacious rooms, modern amenities and warm hospitality, making your Goa holiday truly memorable.
+<span> Free WiFi
+<span> Swimming Pool
+<span> Restaurant
+<span> Parking
+<a href=https://whatsform.com/kkpjba target=_blank> WhatsApp
+<a href=tel:+919322073068> Call Now
+<img> src=https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-22-12-06-226_com.openai.chatgpt.jpg-e1785838879203.jpeg alt="Sinq Beach Resort"
+<img> src=https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-22-12-33-956_com.openai.chatgpt.jpg-e1785838854462.jpeg alt="Sinq Beach Resort"
+<img> src=https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-22-11-18-973_com.openai.chatgpt.jpg-e1785838830598.jpeg alt="Sinq Beach Resort"
+<h3> Sinq Beach Resort
+<small> Starting From
+<span .mba-price> ₹13,500
+<p> A stylish beach resort offering modern rooms, a refreshing swimming pool, excellent dining and easy access to Goa’s vibrant beaches and nightlife.
+<span> Free WiFi
+<span> Swimming Pool
+<span> Restaurant
+<span> Parking
+<a href=https://whatsform.com/kkpjba target=_blank> WhatsApp
+<a href=tel:+919322073068> Call Now
+<img> src=https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-22-14-31-574_com.openai.chatgpt.jpg-e1785839006386.jpeg alt="Somy Plaza"
+<img> src=https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-22-14-27-665_com.openai.chatgpt.jpg-e1785839149819.jpeg alt="Somy Plaza"
+<img> src=https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-22-14-23-099_com.openai.chatgpt.jpg-e1785839172609.jpeg alt="Somy Plaza"
+<h3> Somy Plaza
+<small> Starting From
+<span .mba-price> ₹17,100
+<p> Experience a premium stay with spacious rooms, quality hospitality, modern amenities and convenient access to Goa’s beaches, shopping and attractions.
+<span> Free WiFi
+<span> Swimming Pool
+<span> Restaurant
+<span> Parking
+<a href=https://whatsform.com/kkpjba target=_blank> WhatsApp
+<a href=tel:+919322073068> Call Now

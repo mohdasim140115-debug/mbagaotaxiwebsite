@@ -1,0 +1,4425 @@
+{
+  "home": {
+    "url": "/",
+    "title": "Goa Taxi Service & Tours | MBA Travels Goa",
+    "description": "Book reliable Goa taxi service, airport transfers, sightseeing tours and travel services with MBA Travels Goa. Safe, comfortable and affordable Goa travel.",
+    "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+    "canonical": "https://mbatravelsgoa.com/",
+    "lang": "en-US",
+    "og": {
+      "og:locale": "en_US",
+      "og:type": "website",
+      "og:title": "Goa Taxi Service & Tours | MBA Travels Goa",
+      "og:description": "Book reliable Goa taxi service, airport transfers, sightseeing tours and travel services with MBA Travels Goa. Safe, comfortable and affordable Goa travel.",
+      "og:url": "https://mbatravelsgoa.com/",
+      "og:site_name": "MBA Travels Goa",
+      "og:updated_time": "2026-10-11T18:18:21+00:00"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Goa Taxi Service & Tours | MBA Travels Goa",
+      "twitter:description": "Book reliable Goa taxi service, airport transfers, sightseeing tours and travel services with MBA Travels Goa. Safe, comfortable and affordable Goa travel.",
+      "twitter:label1": "Written by",
+      "twitter:data1": "Tejas",
+      "twitter:label2": "Time to read",
+      "twitter:data2": "4 minutes"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Place",
+            "@id": "https://mbatravelsgoa.com/#place",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "mollembhat",
+              "addressLocality": "saligao",
+              "addressRegion": "goa",
+              "postalCode": "403511",
+              "addressCountry": "IN"
+            }
+          },
+          {
+            "@type": [
+              "LocalBusiness",
+              "Organization"
+            ],
+            "@id": "https://mbatravelsgoa.com/#organization",
+            "name": "MBA Travels Goa",
+            "url": "https://mbatravelsgoa.com",
+            "sameAs": [
+              "https://www.facebook.com/share/1BkLm8wkYC/"
+            ],
+            "email": "mbatravels12@gmail.com",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "mollembhat",
+              "addressLocality": "saligao",
+              "addressRegion": "goa",
+              "postalCode": "403511",
+              "addressCountry": "IN"
+            },
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://mbatravelsgoa.com/#logo",
+              "url": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d.png",
+              "contentUrl": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d.png",
+              "caption": "MBA Travels Goa",
+              "inLanguage": "en-US",
+              "width": "967",
+              "height": "578"
+            },
+            "openingHours": [
+              "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 00:00-23:59"
+            ],
+            "legalName": "MBA Travels Goa",
+            "location": {
+              "@id": "https://mbatravelsgoa.com/#place"
+            },
+            "image": {
+              "@id": "https://mbatravelsgoa.com/#logo"
+            },
+            "telephone": "+919322073068"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://mbatravelsgoa.com/#website",
+            "url": "https://mbatravelsgoa.com",
+            "name": "MBA Travels Goa",
+            "alternateName": "MBA Taxi wala Goa",
+            "publisher": {
+              "@id": "https://mbatravelsgoa.com/#organization"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://mbatravelsgoa.com/?s={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&amp;fit=crop&amp;w=2000&amp;q=80",
+            "url": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&amp;fit=crop&amp;w=2000&amp;q=80",
+            "width": "200",
+            "height": "200",
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://mbatravelsgoa.com/#webpage",
+            "url": "https://mbatravelsgoa.com/",
+            "name": "Goa Taxi Service &amp; Tours | MBA Travels Goa",
+            "datePublished": "2026-07-27T16:48:06+00:00",
+            "dateModified": "2026-10-11T18:18:21+00:00",
+            "about": {
+              "@id": "https://mbatravelsgoa.com/#organization"
+            },
+            "isPartOf": {
+              "@id": "https://mbatravelsgoa.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&amp;fit=crop&amp;w=2000&amp;q=80"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Person",
+            "@id": "https://mbatravelsgoa.com/author/tejas/",
+            "name": "Tejas",
+            "url": "https://mbatravelsgoa.com/author/tejas/",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/800776d3b5dc8e491cc868539cfa5eb8c595966e31150b373c61aedaebfd02df?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/800776d3b5dc8e491cc868539cfa5eb8c595966e31150b373c61aedaebfd02df?s=96&amp;d=mm&amp;r=g",
+              "caption": "Tejas",
+              "inLanguage": "en-US"
+            },
+            "worksFor": {
+              "@id": "https://mbatravelsgoa.com/#organization"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "Goa Taxi Service &amp; Tours | MBA Travels Goa",
+            "keywords": "Goa taxi service",
+            "datePublished": "2026-07-27T16:48:06+00:00",
+            "dateModified": "2026-10-11T18:18:21+00:00",
+            "author": {
+              "@id": "https://mbatravelsgoa.com/author/tejas/",
+              "name": "Tejas"
+            },
+            "publisher": {
+              "@id": "https://mbatravelsgoa.com/#organization"
+            },
+            "description": "Book reliable Goa taxi service, airport transfers, sightseeing tours and travel services with MBA Travels Goa. Safe, comfortable and affordable Goa travel.",
+            "name": "Goa Taxi Service &amp; Tours | MBA Travels Goa",
+            "@id": "https://mbatravelsgoa.com/#richSnippet",
+            "isPartOf": {
+              "@id": "https://mbatravelsgoa.com/#webpage"
+            },
+            "image": {
+              "@id": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&amp;fit=crop&amp;w=2000&amp;q=80"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://mbatravelsgoa.com/#webpage"
+            }
+          }
+        ]
+      }
+    ],
+    "headings": [
+      "H1: Discover The Soul Of Goa",
+      "H2: Everything You Need For Your Goa Trip",
+      "H3: Flight Booking",
+      "H3: Train Booking",
+      "H3: Bus Booking",
+      "H3: Goa Taxi Service",
+      "H3: Hotel Booking",
+      "H3: Holiday Packages",
+      "H3: Cruise Booking",
+      "H3: Corporate Travel",
+      "H2: Discover The Best Of Goa",
+      "H3: North Goa Tour",
+      "H3: South Goa Tour",
+      "H3: Dudhsagar Trip",
+      "H3: Sunset Cruise",
+      "H3: Custom Tour",
+      "H3: Dinner Cruise",
+      "H2: Discover Goa With Trusted Local Experts",
+      "H4: Professional Drivers",
+      "H4: Transparent Pricing",
+      "H4: 24×7 Availability",
+      "H4: Comfortable Vehicles",
+      "H2: Choose Your Perfect Ride",
+      "H3: Dzire",
+      "H3: Ertiga",
+      "H3: Innova",
+      "H3: Innova Crysta",
+      "H2: Luxury Airport Pickup & Drop Service",
+      "H4: Dabolim & Mopa Airport",
+      "H3: Start Your Goa Trip Without Any Stress",
+      "H3: Maruti Dzire",
+      "H3: Maruti Ertiga",
+      "H3: Toyota Innova",
+      "H3: Innova Crysta",
+      "H3: Ready To Book Your Airport Transfer?",
+      "H2: Every Corner Has A Story To Tell",
+      "H3: Beaches",
+      "H3: Heritage",
+      "H3: Adventure",
+      "H3: Nature",
+      "H3: Nightlife",
+      "H2: Loved By Travellers Across Goa",
+      "H4: Rahul Sharma",
+      "H4: Priya Nair",
+      "H4: Aditya Verma",
+      "H4: Sneha Patel",
+      "H4: Rohan Mehta",
+      "H4: Anjali Kapoor",
+      "H2: Everything You Need To Know",
+      "H3: Have More Questions?"
+    ],
+    "header_nav": [
+      {
+        "text": "",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "MBA Travels Goa",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "Home",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "About Us",
+        "href": "https://mbatravelsgoa.com/about-us/"
+      },
+      {
+        "text": "Packages",
+        "href": "https://mbatravelsgoa.com/packages/"
+      },
+      {
+        "text": "Taxi Services",
+        "href": "https://mbatravelsgoa.com/taxi-services/"
+      },
+      {
+        "text": "Hotels",
+        "href": "https://mbatravelsgoa.com/hotels/"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://mbatravelsgoa.com/gallery/"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://mbatravelsgoa.com/goa-taxi-service-contact/"
+      },
+      {
+        "text": "",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "MBA Travels Goa",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "Home",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "About Us",
+        "href": "https://mbatravelsgoa.com/about-us/"
+      },
+      {
+        "text": "Packages",
+        "href": "https://mbatravelsgoa.com/packages/"
+      },
+      {
+        "text": "Taxi Services",
+        "href": "https://mbatravelsgoa.com/taxi-services/"
+      },
+      {
+        "text": "Hotels",
+        "href": "https://mbatravelsgoa.com/hotels/"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://mbatravelsgoa.com/gallery/"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://mbatravelsgoa.com/goa-taxi-service-contact/"
+      }
+    ],
+    "footer_links": [],
+    "content_text": [
+      "[p] Goa Taxi Service: Comfortable and Reliable Travel Across Goa Planning a holiday in Goa is easier when you have a dependable way to get around. Choosing a reliable Goa Taxi Service helps you travel at your own pace, organise your days comfortably, and make the most of your time without worrying about driving on unfamiliar roads. A Convenient Way to Explore Goa Goa has many different places to visit, and they are spread across coastal areas, towns, and the countryside. A Goa Taxi Service can make it easier to travel between your hotel, beaches, attractions, and restaurants. With a Goa Taxi Service, you can plan a flexible journey that suits your schedule instead of trying to coordinate multiple transport options. Whether you are visiting for a weekend, a family holiday, a business trip, or a longer stay, choose a vehicle that matches your group size and luggage. Share your pickup location, destination, travel date, and preferred time when enquiring. Clear details help the service provider suggest a suitable option and explain the fare before your trip. Goa Airport Taxi Transfers After landing at Goa’s airport, most visitors want a smooth journey to their hotel or accommodation. Arranging a Goa Taxi Service in advance can reduce waiting and make it easier to manage bags, children, or a late arrival. Tell the driver your flight details and destination, and confirm the pickup point and contact information before travelling. A Goa Taxi Service can also help with return airport transfers at the end of your holiday. Allow enough time for traffic, check your flight departure time, and agree on the pickup schedule beforehand. If your flight changes, contact the Goa Taxi Service provider as soon as possible so that arrangements can be reviewed. Always confirm the total fare and any additional charges before the ride. Discover North Goa North Goa is popular for lively beaches, nightlife, shopping, cafés, and water-based activities. Visitors often include places such as Calangute, Baga, Candolim, Anjuna, Vagator, and Fort Aguada in their plans. A Goa Taxi Service gives you the flexibility to spend longer at the places you enjoy and move on when you are ready. During busy periods, roads and parking areas near popular beaches can become crowded. Plan your route with realistic travel times, especially around sunset and evening dining hours. If you want to visit several places in one day, discuss the itinerary and waiting time with your driver before starting. This makes the schedule clearer and helps avoid confusion a.",
+      "[h1] Discover The Soul Of Goa",
+      "[p] Get Best Taxi Services in Goa ,Private airport transfers, personalised sightseeing tours, and unforgettable journeys across Goa with professional local drivers.",
+      "[p] Scroll",
+      "[h2] Everything You Need For Your Goa Trip",
+      "[p] From flights to hotels, taxi services in Goa ,to holiday packages, MBA Travels provides complete travel solutions under one roof.",
+      "[h3] Flight Booking",
+      "[p] Domestic & International flight reservations at competitive prices.",
+      "[li] Instant Confirmation",
+      "[li] Best Airfare Deals",
+      "[li] 24×7 Assistance",
+      "[h3] Train Booking",
+      "[p] Reserve railway tickets with quick confirmation and support.",
+      "[li] All Routes",
+      "[li] Fast Booking",
+      "[li] Customer Support",
+      "[h3] Bus Booking",
+      "[p] AC, Sleeper and Luxury bus bookings across India.",
+      "[li] Luxury Coaches",
+      "[li] Instant Tickets",
+      "[li] Safe Travel",
+      "[h3] Goa Taxi Service",
+      "[p] Airport transfers, sightseeing and local taxi rentals.",
+      "[li] Professional Drivers",
+      "[li] Clean Vehicles",
+      "[li] On-Time Pickup",
+      "[h3] Hotel Booking",
+      "[p] Luxury resorts, villas and budget hotels across Goa.",
+      "[li] Premium Hotels",
+      "[li] Beach Resorts",
+      "[li] Best Rates",
+      "[h3] Holiday Packages",
+      "[p] Complete Goa holiday packages for families and couples.",
+      "[li] Custom Itinerary",
+      "[li] Sightseeing",
+      "[li] Hotel Included",
+      "[h3] Cruise Booking",
+      "[p] Sunset cruises, dinner cruises and party cruise experiences.",
+      "[li] Sunset Cruise",
+      "[li] Dinner Cruise",
+      "[li] Party Cruise",
+      "[h3] Corporate Travel",
+      "[p] Business travel management for companies and organizations.",
+      "[li] Corporate Rates",
+      "[li] Dedicated Support",
+      "[li] GST Billing",
+      "[h2] Discover The Best Of Goa",
+      "[p] Explore Goa with carefully planned sightseeing packages designed for couples, families and groups.",
+      "[h3] North Goa Tour",
+      "[p] Baga Beach • Calangute • Fort Aguada • Candolim • Anjuna",
+      "[h3] South Goa Tour",
+      "[p] Miramar • Dona Paula • Basilica • Colva • Churches",
+      "[h3] Dudhsagar Trip",
+      "[p] Jeep Safari • Waterfall • Spice Plantation",
+      "[h3] Sunset Cruise",
+      "[p] Mandovi River • Live Music • Sunset Views",
+      "[h3] Custom Tour",
+      "[p] Plan your own itinerary with a dedicated vehicle.",
+      "[h3] Dinner Cruise",
+      "[p] Luxury Dinner Cruise • Live Music • Buffet Dinner • DJ • Mandovi River",
+      "[h2] Discover Goa With Trusted Local Experts",
+      "[p] From seamless airport pickups to personalised sightseeing experiences, MBA Travels ensures every journey across Goa is comfortable, reliable and unforgettable.",
+      "[h4] Professional Drivers",
+      "[p] Friendly local experts who know Goa inside out.",
+      "[h4] Transparent Pricing",
+      "[p] No hidden charges. Honest fares every time.",
+      "[h4] 24×7 Availability",
+      "[p] Book your ride anytime, day or night.",
+      "[h4] Comfortable Vehicles",
+      "[p] Clean, air-conditioned and regularly maintained.",
+      "[h2] Choose Your Perfect Ride",
+      "[p] Best taxi Services in Goa get Clean, comfortable and well-maintained vehicles for airport transfers,sightseeing and customised Goa tours.",
+      "[h3] Dzire",
+      "[h3] Ertiga",
+      "[h3] Innova",
+      "[h3] Innova Crysta",
+      "[h2] Luxury Airport Pickup & Drop Service",
+      "[p] Enjoy hassle-free airport transfers from Dabolim and Mopa Airport. Professional chauffeurs, fixed pricing, flight tracking and comfortable vehicles available 24×7.",
+      "[h4] Dabolim & Mopa Airport",
+      "[p] 24×7 Pickup & Drop Service",
+      "[h3] Start Your Goa Trip Without Any Stress",
+      "[p] Whether you’re arriving early in the morning or landing late at night, our experienced local drivers ensure a safe, comfortable and timely journey to your destination.",
+      "[h3] Maruti Dzire",
+      "[li] Airport Pickup Included",
+      "[li] Air Conditioned Vehicle",
+      "[li] Professional Driver",
+      "[h3] Maruti Ertiga",
+      "[li] Airport Pickup Included",
+      "[li] Spacious Family Vehicle",
+      "[li] Comfortable AC Ride",
+      "[h3] Toyota Innova",
+      "[li] Premium Interior",
+      "[li] Extra Luggage Space",
+      "[li] Airport Meet & Greet",
+      "[h3] Innova Crysta",
+      "[li] Luxury Experience",
+      "[li] Premium Chauffeur",
+      "[li] Best For Families & Groups",
+      "[h3] Ready To Book Your Airport Transfer?",
+      "[p] From solo travellers to large families, we have the perfect vehicle waiting for you. Contact us now and enjoy a comfortable ride anywhere in Goa.",
+      "[h2] Every Corner Has A Story To Tell",
+      "[p] Discover Goa through breathtaking beaches, rich heritage, thrilling adventures, peaceful nature, and unforgettable nightlife.",
+      "[h3] Beaches",
+      "[p] Golden sands, turquoise waters, and unforgettable sunsets.",
+      "[h3] Heritage",
+      "[p] Explore centuries of Portuguese history and architecture.",
+      "[h3] Adventure",
+      "[p] Parasailing, scuba diving, jet skiing and more.",
+      "[h3] Nature",
+      "[p] Waterfalls, forests, spice plantations and hidden gems.",
+      "[h3] Nightlife",
+      "[p] Beach clubs, music, cafés and vibrant evenings.",
+      "[h2] Loved By Travellers Across Goa",
+      "[p] We are proud to provide safe, comfortable and reliable taxi services for airport transfers, sightseeing and customised Goa tours.",
+      "[h4] Rahul Sharma",
+      "[p] Excellent airport pickup service. The driver arrived on time, the car was very clean and our entire Goa trip was smooth. Highly recommended!",
+      "[h4] Priya Nair",
+      "[p] We booked an Innova Crysta for our family vacation. Professional driver, fixed pricing and excellent customer support.",
+      "[h4] Aditya Verma",
+      "[p] Their sightseeing package covered all major attractions in Goa. Very friendly service and worth every rupee.",
+      "[h4] Sneha Patel",
+      "[p] Booking through WhatsApp was very easy. Great communication and punctual service throughout our stay.",
+      "[h4] Rohan Mehta",
+      "[p] The taxi was spotless and the driver even suggested some hidden beaches. Fantastic local knowledge and amazing experience.",
+      "[h4] Anjali Kapoor",
+      "[p] One of the best taxi services we’ve used in Goa. Safe driving, fair prices and very polite staff.",
+      "[h2] Everything You Need To Know",
+      "[p] Find answers to the most common questions about our airport transfers, taxi services, sightseeing tours and bookings in Goa.",
+      "[h3] Have More Questions?",
+      "[p] Our team is available 24×7 to help you with airport transfers, sightseeing tours and taxi bookings across Goa.",
+      "[button] Which airports do you provide pickup and drop services for?",
+      "[p] We provide airport transfers from both Dabolim Airport and Manohar International Airport (Mopa) to any destination in Goa.",
+      "[button] Can I pre-book my taxi before arriving in Goa?",
+      "[p] Yes. You can pre-book your taxi through WhatsApp. Your driver will be ready before your arrival for a hassle-free pickup.",
+      "[button] Are your taxi prices fixed?",
+      "[p] Yes. All airport transfer prices are fixed. Any extra charges such as additional hours or kilometres will be explained before your trip begins.",
+      "[button] Do you provide full-day sightseeing tours?",
+      "[p] Absolutely. We offer North Goa, South Goa and fully customised sightseeing tours according to your travel plans.",
+      "[button] Is your taxi service available 24×7?",
+      "[p] Yes. Our airport transfer and taxi services are available round the clock, including early morning and late-night pickups.",
+      "[button] Which payment methods do you accept?",
+      "[p] We accept cash, UPI, Google Pay, PhonePe and bank transfers, making payments quick and convenient.",
+      "[p] Our airport transfer and taxi services are available round the clock, including early morning and late-night pickups. We strive to provide our clients with seamless transportation solutions tailored to their needs. For your convenience, we offer a variety of payment options, including cash, UPI, Google Pay, PhonePe, and bank transfers, ensuring a quick and efficient transaction process. Our commitment to reliability and customer satisfaction sets us apart in the transportation industry.",
+      "[p] Yes",
+      "[p] Yes",
+      "[p] Cash And UPI"
+    ],
+    "images": [
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d-76x45.png",
+        "alt": "MBA Travels Goa",
+        "w": "76",
+        "h": "45",
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d-76x45.png",
+        "alt": "MBA Travels Goa",
+        "w": "76",
+        "h": "45",
+        "loading": null
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=2000&q=80",
+        "alt": "Goa taxi service near Palolem Beach",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=2000&q=80",
+        "alt": "Goa Beach Sunset",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=2000&q=80",
+        "alt": "Tropical Palm Road",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=2000&q=80",
+        "alt": "Mountain Waterfall",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=2000&q=80",
+        "alt": "Nature Landscape",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1200&q=80",
+        "alt": "North Goa Tour",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+        "alt": "South Goa Tour",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://i.pinimg.com/736x/cb/b0/93/cbb0932c7e9829997c2ce238b66305cf.jpg",
+        "alt": "Dudhsagar",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://i.pinimg.com/736x/49/a2/cd/49a2cd943b5c7ca9d0c0ca368a880d11.jpg",
+        "alt": "Cruise",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Custom Tour",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Goa Dinner Cruise",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://images.openai.com/static-rsc-4/DNxCrfc2WeIePfmCHgP-00a5nLByULbf8jw5n0SgtqT3004qu_CHhxecwUuKtch2F4meArVDyI3Alk3F9t5IOt8Qoh_LbZ079l5jZB7YP4Wvg-QHyiTFTYwihPqAR9YqpNtH3BeRVq9t6lAeawS1Jj08Bw65i73xN4-cVk3pgjX70vE2uiA2yHkV-TMFwJfy?purpose=fullsize",
+        "alt": "Explore Goa",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTESKr24JLVldgs3cU1tSHYxXnHqPIiTQaOqKxjnOMgZA&s=10 alt=",
+        "alt": null,
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv2g4MFvlDUXqRcDC9vlNHkoXlPbFXP2drqIgI2VZPMxTxWUWEsJBcZQg&s=10",
+        "alt": "Ertiga",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX64fu5MKNMteLMg9O_hiMJ7WXxCgSWKAfqKhnPSDNEA&s=10",
+        "alt": "Innova",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHfNahkUvTCUcYRHOYSHM--BOfVJusGCEyFeCltpEnnQ&s=10",
+        "alt": "Innova Crysta",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1400&q=80",
+        "alt": "Airport Transfer",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://t3.ftcdn.net/jpg/02/43/24/76/360_F_243247620_Clg6rXsX4K0lhPWip3oo9Oee28J30L23.jpg",
+        "alt": "Goa Beaches",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://www.agoda.com/wp-content/uploads/2024/06/Featured-image-Goa-heritage-sites.jpg",
+        "alt": "Heritage Goa",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://www.tourmyindia.com/states/goa/image/adventure-tourism-goa.webp",
+        "alt": "Adventure",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlmSMxwUQFTQcYX-KbwkWHqtJ8Rxsuc6eoPe5-5wmLgQ&s=10",
+        "alt": "Nature",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://www.thebluekite.com/uploads/blog/146-Soro-Panjim-900-x-550-px2025-11-06-12-06-01-0898952001762430761.jpg",
+        "alt": "Nightlife",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://i.pravatar.cc/120?img=12",
+        "alt": "Customer",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://i.pravatar.cc/120?img=32",
+        "alt": "Customer",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://i.pravatar.cc/120?img=18",
+        "alt": "Customer",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://i.pravatar.cc/120?img=48",
+        "alt": "Customer",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://i.pravatar.cc/120?img=54",
+        "alt": "Customer",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://i.pravatar.cc/120?img=24",
+        "alt": "Customer",
+        "w": null,
+        "h": null,
+        "loading": null
+      }
+    ],
+    "links": [
+      {
+        "text": "Explore Tours",
+        "href": "#",
+        "target": null
+      },
+      {
+        "text": "Book Your Ride",
+        "href": "#",
+        "target": null
+      },
+      {
+        "text": "Book Now",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "Book Now",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "Book Now",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "Book Now",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "Book Now",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "Book Now",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "Book Now",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "Book Now",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "Book",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "Book",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "Book",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "Book",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "Book",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "Book",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "Learn More",
+        "href": "#",
+        "target": null
+      },
+      {
+        "text": "Book Now",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "Book Now",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "Book Now",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "Book Now",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "Book Now",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "Book Now",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "Book Now",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "Book Now",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "Book Airport Transfer",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Ask On WhatsApp",
+        "href": "https://whatsform.com/kkpjba.",
+        "target": "_blank"
+      }
+    ],
+    "forms": [],
+    "iframes": [],
+    "ctas": [
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068"
+      },
+      {
+        "text": "Call",
+        "href": "tel:+919322073068"
+      },
+      {
+        "text": "Call",
+        "href": "tel:+919322073068"
+      },
+      {
+        "text": "Call",
+        "href": "tel:+919322073068"
+      },
+      {
+        "text": "Call",
+        "href": "tel:+919322073068"
+      },
+      {
+        "text": "Call",
+        "href": "tel:+919322073068"
+      },
+      {
+        "text": "Call",
+        "href": "tel:+919322073068"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068"
+      }
+    ],
+    "scripts": [
+      "https://mbatravelsgoa.com/wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=4.13.6",
+      "https://mbatravelsgoa.com/wp-content/plugins/hostinger-reach/frontend/dist/blocks/subscription-view.js?ver=1786695969"
+    ]
+  },
+  "about-us": {
+    "url": "/about-us/",
+    "title": "About Us - MBA Travels Goa",
+    "description": ".mba-about{",
+    "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+    "canonical": "https://mbatravelsgoa.com/about-us/",
+    "lang": "en-US",
+    "og": {
+      "og:locale": "en_US",
+      "og:type": "article",
+      "og:title": "About Us - MBA Travels Goa",
+      "og:description": ".mba-about{",
+      "og:url": "https://mbatravelsgoa.com/about-us/",
+      "og:site_name": "MBA Travels Goa",
+      "og:updated_time": "2026-08-03T06:30:33+00:00"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "About Us - MBA Travels Goa",
+      "twitter:description": ".mba-about{",
+      "twitter:label1": "Time to read",
+      "twitter:data1": "1 minute"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Place",
+            "@id": "https://mbatravelsgoa.com/#place",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "mollembhat",
+              "addressLocality": "saligao",
+              "addressRegion": "goa",
+              "postalCode": "403511",
+              "addressCountry": "IN"
+            }
+          },
+          {
+            "@type": [
+              "LocalBusiness",
+              "Organization"
+            ],
+            "@id": "https://mbatravelsgoa.com/#organization",
+            "name": "MBA Travels Goa",
+            "url": "https://mbatravelsgoa.com",
+            "sameAs": [
+              "https://www.facebook.com/share/1BkLm8wkYC/"
+            ],
+            "email": "mbatravels12@gmail.com",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "mollembhat",
+              "addressLocality": "saligao",
+              "addressRegion": "goa",
+              "postalCode": "403511",
+              "addressCountry": "IN"
+            },
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://mbatravelsgoa.com/#logo",
+              "url": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d.png",
+              "contentUrl": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d.png",
+              "caption": "MBA Travels Goa",
+              "inLanguage": "en-US",
+              "width": "967",
+              "height": "578"
+            },
+            "openingHours": [
+              "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 00:00-23:59"
+            ],
+            "legalName": "MBA Travels Goa",
+            "location": {
+              "@id": "https://mbatravelsgoa.com/#place"
+            },
+            "image": {
+              "@id": "https://mbatravelsgoa.com/#logo"
+            },
+            "telephone": "+919322073068"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://mbatravelsgoa.com/#website",
+            "url": "https://mbatravelsgoa.com",
+            "name": "MBA Travels Goa",
+            "alternateName": "MBA Taxi wala Goa",
+            "publisher": {
+              "@id": "https://mbatravelsgoa.com/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&amp;fit=crop&amp;w=900&amp;q=80",
+            "url": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&amp;fit=crop&amp;w=900&amp;q=80",
+            "width": "200",
+            "height": "200",
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://mbatravelsgoa.com/about-us/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://mbatravelsgoa.com",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                  "@id": "https://mbatravelsgoa.com/about-us/",
+                  "name": "About Us"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://mbatravelsgoa.com/about-us/#webpage",
+            "url": "https://mbatravelsgoa.com/about-us/",
+            "name": "About Us - MBA Travels Goa",
+            "datePublished": "2026-08-03T06:21:03+00:00",
+            "dateModified": "2026-08-03T06:30:33+00:00",
+            "isPartOf": {
+              "@id": "https://mbatravelsgoa.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "https://mbatravelsgoa.com/about-us/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://mbatravelsgoa.com/author/tejas/",
+            "name": "Tejas",
+            "url": "https://mbatravelsgoa.com/author/tejas/",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/800776d3b5dc8e491cc868539cfa5eb8c595966e31150b373c61aedaebfd02df?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/800776d3b5dc8e491cc868539cfa5eb8c595966e31150b373c61aedaebfd02df?s=96&amp;d=mm&amp;r=g",
+              "caption": "Tejas",
+              "inLanguage": "en-US"
+            },
+            "worksFor": {
+              "@id": "https://mbatravelsgoa.com/#organization"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "About Us - MBA Travels Goa",
+            "datePublished": "2026-08-03T06:21:03+00:00",
+            "dateModified": "2026-08-03T06:30:33+00:00",
+            "author": {
+              "@id": "https://mbatravelsgoa.com/author/tejas/",
+              "name": "Tejas"
+            },
+            "publisher": {
+              "@id": "https://mbatravelsgoa.com/#organization"
+            },
+            "description": ".mba-about{",
+            "name": "About Us - MBA Travels Goa",
+            "@id": "https://mbatravelsgoa.com/about-us/#richSnippet",
+            "isPartOf": {
+              "@id": "https://mbatravelsgoa.com/about-us/#webpage"
+            },
+            "image": {
+              "@id": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://mbatravelsgoa.com/about-us/#webpage"
+            }
+          }
+        ]
+      }
+    ],
+    "headings": [
+      "H3: 8+",
+      "H2: Your Trusted Travel Partner In Goa",
+      "H2: Why Thousands Of Travellers Choose MBA Travels",
+      "H3: Local Experts",
+      "H3: Transparent Pricing",
+      "H3: Safe & Comfortable",
+      "H3: 24×7 Customer Support",
+      "H2: Every Journey Begins With Trust",
+      "H3: 0",
+      "H3: 0",
+      "H3: 0",
+      "H3: 4.9★",
+      "H2: Ready To Explore Goa?"
+    ],
+    "header_nav": [
+      {
+        "text": "",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "MBA Travels Goa",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "Home",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "About Us",
+        "href": "https://mbatravelsgoa.com/about-us/"
+      },
+      {
+        "text": "Packages",
+        "href": "https://mbatravelsgoa.com/packages/"
+      },
+      {
+        "text": "Taxi Services",
+        "href": "https://mbatravelsgoa.com/taxi-services/"
+      },
+      {
+        "text": "Hotels",
+        "href": "https://mbatravelsgoa.com/hotels/"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://mbatravelsgoa.com/gallery/"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://mbatravelsgoa.com/goa-taxi-service-contact/"
+      },
+      {
+        "text": "",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "MBA Travels Goa",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "Home",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "About Us",
+        "href": "https://mbatravelsgoa.com/about-us/"
+      },
+      {
+        "text": "Packages",
+        "href": "https://mbatravelsgoa.com/packages/"
+      },
+      {
+        "text": "Taxi Services",
+        "href": "https://mbatravelsgoa.com/taxi-services/"
+      },
+      {
+        "text": "Hotels",
+        "href": "https://mbatravelsgoa.com/hotels/"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://mbatravelsgoa.com/gallery/"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://mbatravelsgoa.com/goa-taxi-service-contact/"
+      }
+    ],
+    "footer_links": [],
+    "content_text": [
+      "[h3] 8+",
+      "[h2] Your Trusted Travel Partner In Goa",
+      "[p] MBA Travels is committed to making every journey across Goa comfortable, reliable and memorable. From airport transfers and taxi rentals to customised sightseeing tours and hotel bookings, we provide complete travel solutions with professional service and transparent pricing.",
+      "[p] Whether you’re travelling with family, friends or for business, our experienced team ensures a smooth travel experience from the moment you arrive until your trip concludes.",
+      "[h2] Why Thousands Of Travellers Choose MBA Travels",
+      "[p] We combine reliable transportation, professional service, transparent pricing and local expertise to make every journey across Goa comfortable and memorable.",
+      "[h3] Local Experts",
+      "[p] Our experienced local drivers know every beach, attraction and hidden destination across Goa, ensuring a smooth and enjoyable journey.",
+      "[h3] Transparent Pricing",
+      "[p] Enjoy affordable rates with absolutely no hidden charges. What you see is exactly what you pay.",
+      "[h3] Safe & Comfortable",
+      "[p] Our clean, well-maintained vehicles and professional drivers ensure a secure and comfortable travel experience every time.",
+      "[h3] 24×7 Customer Support",
+      "[p] Whether it’s an airport pickup, taxi booking or sightseeing tour, our team is always ready to assist you whenever you need us.",
+      "[h2] Every Journey Begins With Trust",
+      "[p] MBA Travels was founded with one simple mission — to make travelling across Goa comfortable, reliable and completely stress-free. From airport transfers and local sightseeing to customised holiday packages, we have proudly served thousands of travellers with professionalism and care.",
+      "[p] Every booking is handled with attention to detail because we believe every customer deserves a memorable travel experience.",
+      "[h3] 0",
+      "[h3] 0",
+      "[h3] 0",
+      "[h3] 4.9★",
+      "[h2] Ready To Explore Goa?",
+      "[p] Book your taxi, airport transfer or holiday package today and let MBA Travels make your trip comfortable and memorable."
+    ],
+    "images": [
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d-76x45.png",
+        "alt": "MBA Travels Goa",
+        "w": "76",
+        "h": "45",
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d-76x45.png",
+        "alt": "MBA Travels Goa",
+        "w": "76",
+        "h": "45",
+        "loading": null
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=900&q=80",
+        "alt": "MBA Travels",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=700&q=80",
+        "alt": "Goa",
+        "w": null,
+        "h": null,
+        "loading": null
+      }
+    ],
+    "links": [
+      {
+        "text": "Plan Your Trip",
+        "href": "https://wa.me/919322072068?text=Hi,%20I%20would%20like%20to%20plan%20my%20Goa%20trip.",
+        "target": "_blank"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322072068",
+        "target": null
+      },
+      {
+        "text": "WhatsApp Booking",
+        "href": "https://wa.me/919322072068?text=Hi,%20I%20want%20to%20plan%20my%20Goa%20trip.",
+        "target": "_blank"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322072068",
+        "target": null
+      }
+    ],
+    "forms": [],
+    "iframes": [],
+    "ctas": [
+      {
+        "text": "Plan Your Trip",
+        "href": "https://wa.me/919322072068?text=Hi,%20I%20would%20like%20to%20plan%20my%20Goa%20trip."
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322072068"
+      },
+      {
+        "text": "WhatsApp Booking",
+        "href": "https://wa.me/919322072068?text=Hi,%20I%20want%20to%20plan%20my%20Goa%20trip."
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322072068"
+      }
+    ],
+    "scripts": [
+      "https://mbatravelsgoa.com/wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=4.13.6",
+      "https://mbatravelsgoa.com/wp-content/plugins/hostinger-reach/frontend/dist/blocks/subscription-view.js?ver=1786695969"
+    ]
+  },
+  "packages": {
+    "url": "/packages/",
+    "title": "Packages - MBA Travels Goa",
+    "description": ".mba-packages{",
+    "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+    "canonical": "https://mbatravelsgoa.com/packages/",
+    "lang": "en-US",
+    "og": {
+      "og:locale": "en_US",
+      "og:type": "article",
+      "og:title": "Packages - MBA Travels Goa",
+      "og:description": ".mba-packages{",
+      "og:url": "https://mbatravelsgoa.com/packages/",
+      "og:site_name": "MBA Travels Goa",
+      "og:updated_time": "2026-08-03T06:35:37+00:00"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Packages - MBA Travels Goa",
+      "twitter:description": ".mba-packages{",
+      "twitter:label1": "Time to read",
+      "twitter:data1": "Less than a minute"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Place",
+            "@id": "https://mbatravelsgoa.com/#place",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "mollembhat",
+              "addressLocality": "saligao",
+              "addressRegion": "goa",
+              "postalCode": "403511",
+              "addressCountry": "IN"
+            }
+          },
+          {
+            "@type": [
+              "LocalBusiness",
+              "Organization"
+            ],
+            "@id": "https://mbatravelsgoa.com/#organization",
+            "name": "MBA Travels Goa",
+            "url": "https://mbatravelsgoa.com",
+            "sameAs": [
+              "https://www.facebook.com/share/1BkLm8wkYC/"
+            ],
+            "email": "mbatravels12@gmail.com",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "mollembhat",
+              "addressLocality": "saligao",
+              "addressRegion": "goa",
+              "postalCode": "403511",
+              "addressCountry": "IN"
+            },
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://mbatravelsgoa.com/#logo",
+              "url": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d.png",
+              "contentUrl": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d.png",
+              "caption": "MBA Travels Goa",
+              "inLanguage": "en-US",
+              "width": "967",
+              "height": "578"
+            },
+            "openingHours": [
+              "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 00:00-23:59"
+            ],
+            "legalName": "MBA Travels Goa",
+            "location": {
+              "@id": "https://mbatravelsgoa.com/#place"
+            },
+            "image": {
+              "@id": "https://mbatravelsgoa.com/#logo"
+            },
+            "telephone": "+919322073068"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://mbatravelsgoa.com/#website",
+            "url": "https://mbatravelsgoa.com",
+            "name": "MBA Travels Goa",
+            "alternateName": "MBA Taxi wala Goa",
+            "publisher": {
+              "@id": "https://mbatravelsgoa.com/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&amp;fit=crop&amp;w=1200&amp;q=80",
+            "url": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&amp;fit=crop&amp;w=1200&amp;q=80",
+            "width": "200",
+            "height": "200",
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://mbatravelsgoa.com/packages/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://mbatravelsgoa.com",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                  "@id": "https://mbatravelsgoa.com/packages/",
+                  "name": "Packages"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://mbatravelsgoa.com/packages/#webpage",
+            "url": "https://mbatravelsgoa.com/packages/",
+            "name": "Packages - MBA Travels Goa",
+            "datePublished": "2026-08-03T06:32:30+00:00",
+            "dateModified": "2026-08-03T06:35:37+00:00",
+            "isPartOf": {
+              "@id": "https://mbatravelsgoa.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&amp;fit=crop&amp;w=1200&amp;q=80"
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "https://mbatravelsgoa.com/packages/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://mbatravelsgoa.com/author/tejas/",
+            "name": "Tejas",
+            "url": "https://mbatravelsgoa.com/author/tejas/",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/800776d3b5dc8e491cc868539cfa5eb8c595966e31150b373c61aedaebfd02df?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/800776d3b5dc8e491cc868539cfa5eb8c595966e31150b373c61aedaebfd02df?s=96&amp;d=mm&amp;r=g",
+              "caption": "Tejas",
+              "inLanguage": "en-US"
+            },
+            "worksFor": {
+              "@id": "https://mbatravelsgoa.com/#organization"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "Packages - MBA Travels Goa",
+            "datePublished": "2026-08-03T06:32:30+00:00",
+            "dateModified": "2026-08-03T06:35:37+00:00",
+            "author": {
+              "@id": "https://mbatravelsgoa.com/author/tejas/",
+              "name": "Tejas"
+            },
+            "publisher": {
+              "@id": "https://mbatravelsgoa.com/#organization"
+            },
+            "description": ".mba-packages{",
+            "name": "Packages - MBA Travels Goa",
+            "@id": "https://mbatravelsgoa.com/packages/#richSnippet",
+            "isPartOf": {
+              "@id": "https://mbatravelsgoa.com/packages/#webpage"
+            },
+            "image": {
+              "@id": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&amp;fit=crop&amp;w=1200&amp;q=80"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://mbatravelsgoa.com/packages/#webpage"
+            }
+          }
+        ]
+      }
+    ],
+    "headings": [
+      "H2: Discover The Best Of Goa",
+      "H3: North Goa Tour",
+      "H3: South Goa Tour",
+      "H3: Dudhsagar Trip",
+      "H3: Sunset Cruise",
+      "H3: Custom Tour",
+      "H3: Airport + Sightseeing"
+    ],
+    "header_nav": [
+      {
+        "text": "",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "MBA Travels Goa",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "Home",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "About Us",
+        "href": "https://mbatravelsgoa.com/about-us/"
+      },
+      {
+        "text": "Packages",
+        "href": "https://mbatravelsgoa.com/packages/"
+      },
+      {
+        "text": "Taxi Services",
+        "href": "https://mbatravelsgoa.com/taxi-services/"
+      },
+      {
+        "text": "Hotels",
+        "href": "https://mbatravelsgoa.com/hotels/"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://mbatravelsgoa.com/gallery/"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://mbatravelsgoa.com/goa-taxi-service-contact/"
+      },
+      {
+        "text": "",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "MBA Travels Goa",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "Home",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "About Us",
+        "href": "https://mbatravelsgoa.com/about-us/"
+      },
+      {
+        "text": "Packages",
+        "href": "https://mbatravelsgoa.com/packages/"
+      },
+      {
+        "text": "Taxi Services",
+        "href": "https://mbatravelsgoa.com/taxi-services/"
+      },
+      {
+        "text": "Hotels",
+        "href": "https://mbatravelsgoa.com/hotels/"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://mbatravelsgoa.com/gallery/"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://mbatravelsgoa.com/goa-taxi-service-contact/"
+      }
+    ],
+    "footer_links": [],
+    "content_text": [
+      "[h2] Discover The Best Of Goa",
+      "[p] Explore Goa with carefully planned sightseeing packages designed for couples, families and groups.",
+      "[h3] North Goa Tour",
+      "[p] Baga Beach • Calangute • Fort Aguada • Candolim • Anjuna",
+      "[h3] South Goa Tour",
+      "[p] Miramar • Dona Paula • Basilica • Colva • Churches",
+      "[h3] Dudhsagar Trip",
+      "[p] Jeep Safari • Waterfall • Spice Plantation",
+      "[h3] Sunset Cruise",
+      "[p] Mandovi River • Live Music • Sunset Views",
+      "[h3] Custom Tour",
+      "[p] Plan your own itinerary with a dedicated vehicle.",
+      "[h3] Airport + Sightseeing",
+      "[p] Airport pickup with same-day sightseeing package."
+    ],
+    "images": [
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d-76x45.png",
+        "alt": "MBA Travels Goa",
+        "w": "76",
+        "h": "45",
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d-76x45.png",
+        "alt": "MBA Travels Goa",
+        "w": "76",
+        "h": "45",
+        "loading": null
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1200&q=80",
+        "alt": "North Goa Tour",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+        "alt": "South Goa Tour",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://i.pinimg.com/736x/cb/b0/93/cbb0932c7e9829997c2ce238b66305cf.jpg",
+        "alt": "Dudhsagar",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://i.pinimg.com/736x/49/a2/cd/49a2cd943b5c7ca9d0c0ca368a880d11.jpg",
+        "alt": "Cruise",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Custom Tour",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Airport + Tour",
+        "w": null,
+        "h": null,
+        "loading": null
+      }
+    ],
+    "links": [
+      {
+        "text": "Book",
+        "href": "https://wa.me/919000000000?text=Hi,%20I%20want%20to%20book%20North%20Goa%20Tour",
+        "target": "_blank"
+      },
+      {
+        "text": "Book",
+        "href": "https://wa.me/919000000000?text=Hi,%20I%20want%20to%20book%20South%20Goa%20Tour",
+        "target": "_blank"
+      },
+      {
+        "text": "Book",
+        "href": "https://wa.me/919000000000?text=Hi,%20I%20want%20to%20book%20Dudhsagar%20Trip",
+        "target": "_blank"
+      },
+      {
+        "text": "Book",
+        "href": "https://wa.me/919000000000?text=Hi,%20I%20want%20to%20book%20Sunset%20Cruise",
+        "target": "_blank"
+      },
+      {
+        "text": "Enquire",
+        "href": "https://wa.me/919000000000?text=Hi,%20I%20want%20a%20Custom%20Goa%20Tour",
+        "target": "_blank"
+      },
+      {
+        "text": "Book",
+        "href": "https://wa.me/919000000000?text=Hi,%20I%20want%20Airport%20Pickup%20with%20Sightseeing",
+        "target": "_blank"
+      }
+    ],
+    "forms": [],
+    "iframes": [],
+    "ctas": [
+      {
+        "text": "Book",
+        "href": "https://wa.me/919000000000?text=Hi,%20I%20want%20to%20book%20North%20Goa%20Tour"
+      },
+      {
+        "text": "Book",
+        "href": "https://wa.me/919000000000?text=Hi,%20I%20want%20to%20book%20South%20Goa%20Tour"
+      },
+      {
+        "text": "Book",
+        "href": "https://wa.me/919000000000?text=Hi,%20I%20want%20to%20book%20Dudhsagar%20Trip"
+      },
+      {
+        "text": "Book",
+        "href": "https://wa.me/919000000000?text=Hi,%20I%20want%20to%20book%20Sunset%20Cruise"
+      },
+      {
+        "text": "Enquire",
+        "href": "https://wa.me/919000000000?text=Hi,%20I%20want%20a%20Custom%20Goa%20Tour"
+      },
+      {
+        "text": "Book",
+        "href": "https://wa.me/919000000000?text=Hi,%20I%20want%20Airport%20Pickup%20with%20Sightseeing"
+      }
+    ],
+    "scripts": [
+      "https://mbatravelsgoa.com/wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=4.13.6",
+      "https://mbatravelsgoa.com/wp-content/plugins/hostinger-reach/frontend/dist/blocks/subscription-view.js?ver=1786695969"
+    ]
+  },
+  "taxi-services": {
+    "url": "/taxi-services/",
+    "title": "Taxi Services - MBA Travels Goa",
+    "description": ".mba-fleet{",
+    "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+    "canonical": "https://mbatravelsgoa.com/taxi-services/",
+    "lang": "en-US",
+    "og": {
+      "og:locale": "en_US",
+      "og:type": "article",
+      "og:title": "Taxi Services - MBA Travels Goa",
+      "og:description": ".mba-fleet{",
+      "og:url": "https://mbatravelsgoa.com/taxi-services/",
+      "og:site_name": "MBA Travels Goa",
+      "og:updated_time": "2026-08-03T06:37:21+00:00"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Taxi Services - MBA Travels Goa",
+      "twitter:description": ".mba-fleet{",
+      "twitter:label1": "Time to read",
+      "twitter:data1": "Less than a minute"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Place",
+            "@id": "https://mbatravelsgoa.com/#place",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "mollembhat",
+              "addressLocality": "saligao",
+              "addressRegion": "goa",
+              "postalCode": "403511",
+              "addressCountry": "IN"
+            }
+          },
+          {
+            "@type": [
+              "LocalBusiness",
+              "Organization"
+            ],
+            "@id": "https://mbatravelsgoa.com/#organization",
+            "name": "MBA Travels Goa",
+            "url": "https://mbatravelsgoa.com",
+            "sameAs": [
+              "https://www.facebook.com/share/1BkLm8wkYC/"
+            ],
+            "email": "mbatravels12@gmail.com",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "mollembhat",
+              "addressLocality": "saligao",
+              "addressRegion": "goa",
+              "postalCode": "403511",
+              "addressCountry": "IN"
+            },
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://mbatravelsgoa.com/#logo",
+              "url": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d.png",
+              "contentUrl": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d.png",
+              "caption": "MBA Travels Goa",
+              "inLanguage": "en-US",
+              "width": "967",
+              "height": "578"
+            },
+            "openingHours": [
+              "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 00:00-23:59"
+            ],
+            "legalName": "MBA Travels Goa",
+            "location": {
+              "@id": "https://mbatravelsgoa.com/#place"
+            },
+            "image": {
+              "@id": "https://mbatravelsgoa.com/#logo"
+            },
+            "telephone": "+919322073068"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://mbatravelsgoa.com/#website",
+            "url": "https://mbatravelsgoa.com",
+            "name": "MBA Travels Goa",
+            "alternateName": "MBA Taxi wala Goa",
+            "publisher": {
+              "@id": "https://mbatravelsgoa.com/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTESKr24JLVldgs3cU1tSHYxXnHqPIiTQaOqKxjnOMgZA&amp;s=10 alt=",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTESKr24JLVldgs3cU1tSHYxXnHqPIiTQaOqKxjnOMgZA&amp;s=10 alt=",
+            "width": "200",
+            "height": "200",
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://mbatravelsgoa.com/taxi-services/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://mbatravelsgoa.com",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                  "@id": "https://mbatravelsgoa.com/taxi-services/",
+                  "name": "Taxi Services"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://mbatravelsgoa.com/taxi-services/#webpage",
+            "url": "https://mbatravelsgoa.com/taxi-services/",
+            "name": "Taxi Services - MBA Travels Goa",
+            "datePublished": "2026-08-03T06:36:08+00:00",
+            "dateModified": "2026-08-03T06:37:21+00:00",
+            "isPartOf": {
+              "@id": "https://mbatravelsgoa.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTESKr24JLVldgs3cU1tSHYxXnHqPIiTQaOqKxjnOMgZA&amp;s=10 alt="
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "https://mbatravelsgoa.com/taxi-services/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://mbatravelsgoa.com/author/tejas/",
+            "name": "Tejas",
+            "url": "https://mbatravelsgoa.com/author/tejas/",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/800776d3b5dc8e491cc868539cfa5eb8c595966e31150b373c61aedaebfd02df?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/800776d3b5dc8e491cc868539cfa5eb8c595966e31150b373c61aedaebfd02df?s=96&amp;d=mm&amp;r=g",
+              "caption": "Tejas",
+              "inLanguage": "en-US"
+            },
+            "worksFor": {
+              "@id": "https://mbatravelsgoa.com/#organization"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "Taxi Services - MBA Travels Goa",
+            "datePublished": "2026-08-03T06:36:08+00:00",
+            "dateModified": "2026-08-03T06:37:21+00:00",
+            "author": {
+              "@id": "https://mbatravelsgoa.com/author/tejas/",
+              "name": "Tejas"
+            },
+            "publisher": {
+              "@id": "https://mbatravelsgoa.com/#organization"
+            },
+            "description": ".mba-fleet{",
+            "name": "Taxi Services - MBA Travels Goa",
+            "@id": "https://mbatravelsgoa.com/taxi-services/#richSnippet",
+            "isPartOf": {
+              "@id": "https://mbatravelsgoa.com/taxi-services/#webpage"
+            },
+            "image": {
+              "@id": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTESKr24JLVldgs3cU1tSHYxXnHqPIiTQaOqKxjnOMgZA&amp;s=10 alt="
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://mbatravelsgoa.com/taxi-services/#webpage"
+            }
+          }
+        ]
+      }
+    ],
+    "headings": [
+      "H2: Choose Your Perfect Ride",
+      "H3: Dzire",
+      "H3: Ertiga",
+      "H3: Innova",
+      "H3: Innova Crysta",
+      "H2: Luxury Airport Pickup & Drop Service",
+      "H4: Dabolim & Mopa Airport",
+      "H3: Start Your Goa Trip Without Any Stress",
+      "H3: Maruti Dzire",
+      "H3: Maruti Ertiga",
+      "H3: Toyota Innova",
+      "H3: Innova Crysta",
+      "H3: Ready To Book Your Airport Transfer?"
+    ],
+    "header_nav": [
+      {
+        "text": "",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "MBA Travels Goa",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "Home",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "About Us",
+        "href": "https://mbatravelsgoa.com/about-us/"
+      },
+      {
+        "text": "Packages",
+        "href": "https://mbatravelsgoa.com/packages/"
+      },
+      {
+        "text": "Taxi Services",
+        "href": "https://mbatravelsgoa.com/taxi-services/"
+      },
+      {
+        "text": "Hotels",
+        "href": "https://mbatravelsgoa.com/hotels/"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://mbatravelsgoa.com/gallery/"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://mbatravelsgoa.com/goa-taxi-service-contact/"
+      },
+      {
+        "text": "",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "MBA Travels Goa",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "Home",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "About Us",
+        "href": "https://mbatravelsgoa.com/about-us/"
+      },
+      {
+        "text": "Packages",
+        "href": "https://mbatravelsgoa.com/packages/"
+      },
+      {
+        "text": "Taxi Services",
+        "href": "https://mbatravelsgoa.com/taxi-services/"
+      },
+      {
+        "text": "Hotels",
+        "href": "https://mbatravelsgoa.com/hotels/"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://mbatravelsgoa.com/gallery/"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://mbatravelsgoa.com/goa-taxi-service-contact/"
+      }
+    ],
+    "footer_links": [],
+    "content_text": [
+      "[h2] Choose Your Perfect Ride",
+      "[p] Clean, comfortable and well-maintained vehicles for airport transfers, sightseeing and customised Goa tours.",
+      "[h3] Dzire",
+      "[h3] Ertiga",
+      "[h3] Innova",
+      "[h3] Innova Crysta",
+      "[h2] Luxury Airport Pickup & Drop Service",
+      "[p] Enjoy hassle-free airport transfers from Dabolim and Mopa Airport. Professional chauffeurs, fixed pricing, flight tracking and comfortable vehicles available 24×7.",
+      "[h4] Dabolim & Mopa Airport",
+      "[p] 24×7 Pickup & Drop Service",
+      "[h3] Start Your Goa Trip Without Any Stress",
+      "[p] Whether you’re arriving early in the morning or landing late at night, our experienced local drivers ensure a safe, comfortable and timely journey to your destination.",
+      "[h3] Maruti Dzire",
+      "[li] Airport Pickup Included",
+      "[li] Air Conditioned Vehicle",
+      "[li] Professional Driver",
+      "[h3] Maruti Ertiga",
+      "[li] Airport Pickup Included",
+      "[li] Spacious Family Vehicle",
+      "[li] Comfortable AC Ride",
+      "[h3] Toyota Innova",
+      "[li] Premium Interior",
+      "[li] Extra Luggage Space",
+      "[li] Airport Meet & Greet",
+      "[h3] Innova Crysta",
+      "[li] Luxury Experience",
+      "[li] Premium Chauffeur",
+      "[li] Best For Families & Groups",
+      "[h3] Ready To Book Your Airport Transfer?",
+      "[p] From solo travellers to large families, we have the perfect vehicle waiting for you. Contact us now and enjoy a comfortable ride anywhere in Goa."
+    ],
+    "images": [
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d-76x45.png",
+        "alt": "MBA Travels Goa",
+        "w": "76",
+        "h": "45",
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d-76x45.png",
+        "alt": "MBA Travels Goa",
+        "w": "76",
+        "h": "45",
+        "loading": null
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTESKr24JLVldgs3cU1tSHYxXnHqPIiTQaOqKxjnOMgZA&s=10 alt=",
+        "alt": null,
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv2g4MFvlDUXqRcDC9vlNHkoXlPbFXP2drqIgI2VZPMxTxWUWEsJBcZQg&s=10",
+        "alt": "Ertiga",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX64fu5MKNMteLMg9O_hiMJ7WXxCgSWKAfqKhnPSDNEA&s=10",
+        "alt": "Innova",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHfNahkUvTCUcYRHOYSHM--BOfVJusGCEyFeCltpEnnQ&s=10",
+        "alt": "Innova Crysta",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1400&q=80",
+        "alt": "Airport Transfer",
+        "w": null,
+        "h": null,
+        "loading": null
+      }
+    ],
+    "links": [
+      {
+        "text": "Book on WhatsApp",
+        "href": "https://wa.me/919000000000?text=I%20want%20to%20book%20Dzire",
+        "target": "_blank"
+      },
+      {
+        "text": "Book on WhatsApp",
+        "href": "https://wa.me/919000000000?text=I%20want%20to%20book%20Ertiga",
+        "target": "_blank"
+      },
+      {
+        "text": "Book on WhatsApp",
+        "href": "https://wa.me/919000000000?text=I%20want%20to%20book%20Innova",
+        "target": "_blank"
+      },
+      {
+        "text": "Book on WhatsApp",
+        "href": "https://wa.me/919000000000?text=I%20want%20to%20book%20Innova%20Crysta",
+        "target": "_blank"
+      },
+      {
+        "text": "Book Now",
+        "href": "https://wa.me/919002070068?text=Hi MBA Travels, I would like to book the Maruti Dzire Airport Pickup.",
+        "target": "_blank"
+      },
+      {
+        "text": "Book Now",
+        "href": "https://wa.me/919002070068?text=Hi MBA Travels, I would like to book the Maruti Ertiga Airport Pickup.",
+        "target": "_blank"
+      },
+      {
+        "text": "Book Now",
+        "href": "https://wa.me/919002070068?text=Hi MBA Travels, I would like to book the Toyota Innova Airport Pickup.",
+        "target": "_blank"
+      },
+      {
+        "text": "Book Now",
+        "href": "https://wa.me/919002070068?text=Hi MBA Travels, I would like to book the Innova Crysta Airport Pickup.",
+        "target": "_blank"
+      },
+      {
+        "text": "Book Airport Transfer",
+        "href": "https://wa.me/919002070068?text=Hi MBA Travels, I would like to book an Airport Transfer.",
+        "target": "_blank"
+      }
+    ],
+    "forms": [],
+    "iframes": [],
+    "ctas": [
+      {
+        "text": "Book on WhatsApp",
+        "href": "https://wa.me/919000000000?text=I%20want%20to%20book%20Dzire"
+      },
+      {
+        "text": "Book on WhatsApp",
+        "href": "https://wa.me/919000000000?text=I%20want%20to%20book%20Ertiga"
+      },
+      {
+        "text": "Book on WhatsApp",
+        "href": "https://wa.me/919000000000?text=I%20want%20to%20book%20Innova"
+      },
+      {
+        "text": "Book on WhatsApp",
+        "href": "https://wa.me/919000000000?text=I%20want%20to%20book%20Innova%20Crysta"
+      },
+      {
+        "text": "Book Now",
+        "href": "https://wa.me/919002070068?text=Hi MBA Travels, I would like to book the Maruti Dzire Airport Pickup."
+      },
+      {
+        "text": "Book Now",
+        "href": "https://wa.me/919002070068?text=Hi MBA Travels, I would like to book the Maruti Ertiga Airport Pickup."
+      },
+      {
+        "text": "Book Now",
+        "href": "https://wa.me/919002070068?text=Hi MBA Travels, I would like to book the Toyota Innova Airport Pickup."
+      },
+      {
+        "text": "Book Now",
+        "href": "https://wa.me/919002070068?text=Hi MBA Travels, I would like to book the Innova Crysta Airport Pickup."
+      },
+      {
+        "text": "Book Airport Transfer",
+        "href": "https://wa.me/919002070068?text=Hi MBA Travels, I would like to book an Airport Transfer."
+      }
+    ],
+    "scripts": [
+      "https://mbatravelsgoa.com/wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=4.13.6",
+      "https://mbatravelsgoa.com/wp-content/plugins/hostinger-reach/frontend/dist/blocks/subscription-view.js?ver=1786695969"
+    ]
+  },
+  "gallery": {
+    "url": "/gallery/",
+    "title": "Gallery - MBA Travels Goa",
+    "description": null,
+    "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+    "canonical": "https://mbatravelsgoa.com/gallery/",
+    "lang": "en-US",
+    "og": {
+      "og:locale": "en_US",
+      "og:type": "article",
+      "og:title": "Gallery - MBA Travels Goa",
+      "og:url": "https://mbatravelsgoa.com/gallery/",
+      "og:site_name": "MBA Travels Goa"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Gallery - MBA Travels Goa",
+      "twitter:label1": "Time to read",
+      "twitter:data1": "Less than a minute"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Place",
+            "@id": "https://mbatravelsgoa.com/#place",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "mollembhat",
+              "addressLocality": "saligao",
+              "addressRegion": "goa",
+              "postalCode": "403511",
+              "addressCountry": "IN"
+            }
+          },
+          {
+            "@type": [
+              "LocalBusiness",
+              "Organization"
+            ],
+            "@id": "https://mbatravelsgoa.com/#organization",
+            "name": "MBA Travels Goa",
+            "url": "https://mbatravelsgoa.com",
+            "sameAs": [
+              "https://www.facebook.com/share/1BkLm8wkYC/"
+            ],
+            "email": "mbatravels12@gmail.com",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "mollembhat",
+              "addressLocality": "saligao",
+              "addressRegion": "goa",
+              "postalCode": "403511",
+              "addressCountry": "IN"
+            },
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://mbatravelsgoa.com/#logo",
+              "url": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d.png",
+              "contentUrl": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d.png",
+              "caption": "MBA Travels Goa",
+              "inLanguage": "en-US",
+              "width": "967",
+              "height": "578"
+            },
+            "openingHours": [
+              "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 00:00-23:59"
+            ],
+            "legalName": "MBA Travels Goa",
+            "location": {
+              "@id": "https://mbatravelsgoa.com/#place"
+            },
+            "image": {
+              "@id": "https://mbatravelsgoa.com/#logo"
+            },
+            "telephone": "+919322073068"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://mbatravelsgoa.com/#website",
+            "url": "https://mbatravelsgoa.com",
+            "name": "MBA Travels Goa",
+            "alternateName": "MBA Taxi wala Goa",
+            "publisher": {
+              "@id": "https://mbatravelsgoa.com/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://mbatravelsgoa.com/gallery/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://mbatravelsgoa.com",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                  "@id": "https://mbatravelsgoa.com/gallery/",
+                  "name": "Gallery"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://mbatravelsgoa.com/gallery/#webpage",
+            "url": "https://mbatravelsgoa.com/gallery/",
+            "name": "Gallery - MBA Travels Goa",
+            "datePublished": "2026-08-03T06:38:22+00:00",
+            "dateModified": "2026-08-03T06:38:22+00:00",
+            "isPartOf": {
+              "@id": "https://mbatravelsgoa.com/#website"
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "https://mbatravelsgoa.com/gallery/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://mbatravelsgoa.com/author/tejas/",
+            "name": "Tejas",
+            "url": "https://mbatravelsgoa.com/author/tejas/",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/800776d3b5dc8e491cc868539cfa5eb8c595966e31150b373c61aedaebfd02df?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/800776d3b5dc8e491cc868539cfa5eb8c595966e31150b373c61aedaebfd02df?s=96&amp;d=mm&amp;r=g",
+              "caption": "Tejas",
+              "inLanguage": "en-US"
+            },
+            "worksFor": {
+              "@id": "https://mbatravelsgoa.com/#organization"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "Gallery - MBA Travels Goa",
+            "datePublished": "2026-08-03T06:38:22+00:00",
+            "dateModified": "2026-08-03T06:38:22+00:00",
+            "author": {
+              "@id": "https://mbatravelsgoa.com/author/tejas/",
+              "name": "Tejas"
+            },
+            "publisher": {
+              "@id": "https://mbatravelsgoa.com/#organization"
+            },
+            "name": "Gallery - MBA Travels Goa",
+            "@id": "https://mbatravelsgoa.com/gallery/#richSnippet",
+            "isPartOf": {
+              "@id": "https://mbatravelsgoa.com/gallery/#webpage"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://mbatravelsgoa.com/gallery/#webpage"
+            }
+          }
+        ]
+      }
+    ],
+    "headings": [
+      "H1: Gallery"
+    ],
+    "header_nav": [
+      {
+        "text": "",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "MBA Travels Goa",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "Home",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "About Us",
+        "href": "https://mbatravelsgoa.com/about-us/"
+      },
+      {
+        "text": "Packages",
+        "href": "https://mbatravelsgoa.com/packages/"
+      },
+      {
+        "text": "Taxi Services",
+        "href": "https://mbatravelsgoa.com/taxi-services/"
+      },
+      {
+        "text": "Hotels",
+        "href": "https://mbatravelsgoa.com/hotels/"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://mbatravelsgoa.com/gallery/"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://mbatravelsgoa.com/goa-taxi-service-contact/"
+      },
+      {
+        "text": "",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "MBA Travels Goa",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "Home",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "About Us",
+        "href": "https://mbatravelsgoa.com/about-us/"
+      },
+      {
+        "text": "Packages",
+        "href": "https://mbatravelsgoa.com/packages/"
+      },
+      {
+        "text": "Taxi Services",
+        "href": "https://mbatravelsgoa.com/taxi-services/"
+      },
+      {
+        "text": "Hotels",
+        "href": "https://mbatravelsgoa.com/hotels/"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://mbatravelsgoa.com/gallery/"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://mbatravelsgoa.com/goa-taxi-service-contact/"
+      }
+    ],
+    "footer_links": [],
+    "content_text": [
+      "[h1] Gallery"
+    ],
+    "images": [
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d-76x45.png",
+        "alt": "MBA Travels Goa",
+        "w": "76",
+        "h": "45",
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d-76x45.png",
+        "alt": "MBA Travels Goa",
+        "w": "76",
+        "h": "45",
+        "loading": null
+      }
+    ],
+    "links": [],
+    "forms": [],
+    "iframes": [],
+    "ctas": [],
+    "scripts": [
+      "https://mbatravelsgoa.com/wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=4.13.6",
+      "https://mbatravelsgoa.com/wp-content/plugins/hostinger-reach/frontend/dist/blocks/subscription-view.js?ver=1786695969"
+    ]
+  },
+  "contact": {
+    "url": "/goa-taxi-service-contact/",
+    "title": "Goa Taxi Service | Contact MBA Travels Goa",
+    "description": "Looking for a Goa taxi service? Contact MBA Travels Goa for airport transfers, private taxi bookings, sightseeing tours and reliable taxi services across Goa. Get in touch today!",
+    "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+    "canonical": "https://mbatravelsgoa.com/goa-taxi-service-contact/",
+    "lang": "en-US",
+    "og": {
+      "og:locale": "en_US",
+      "og:type": "article",
+      "og:title": "Goa Taxi Service | Contact MBA Travels Goa",
+      "og:description": "Looking for a Goa taxi service? Contact MBA Travels Goa for airport transfers, private taxi bookings, sightseeing tours and reliable taxi services across Goa. Get in touch today!",
+      "og:url": "https://mbatravelsgoa.com/goa-taxi-service-contact/",
+      "og:site_name": "MBA Travels Goa",
+      "og:updated_time": "2026-10-11T20:04:14+00:00",
+      "og:image": "https://mbatravelsgoa.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-00.42.27.jpeg",
+      "og:image:secure_url": "https://mbatravelsgoa.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-00.42.27.jpeg",
+      "og:image:width": "1600",
+      "og:image:height": "899",
+      "og:image:alt": "goa taxi service",
+      "og:image:type": "image/jpeg"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Goa Taxi Service | Contact MBA Travels Goa",
+      "twitter:description": "Looking for a Goa taxi service? Contact MBA Travels Goa for airport transfers, private taxi bookings, sightseeing tours and reliable taxi services across Goa. Get in touch today!",
+      "twitter:image": "https://mbatravelsgoa.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-00.42.27.jpeg",
+      "twitter:label1": "Time to read",
+      "twitter:data1": "3 minutes"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Place",
+            "@id": "https://mbatravelsgoa.com/#place",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "mollembhat",
+              "addressLocality": "saligao",
+              "addressRegion": "goa",
+              "postalCode": "403511",
+              "addressCountry": "IN"
+            }
+          },
+          {
+            "@type": [
+              "LocalBusiness",
+              "Organization"
+            ],
+            "@id": "https://mbatravelsgoa.com/#organization",
+            "name": "MBA Travels Goa",
+            "url": "https://mbatravelsgoa.com",
+            "sameAs": [
+              "https://www.facebook.com/share/1BkLm8wkYC/"
+            ],
+            "email": "mbatravels12@gmail.com",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "mollembhat",
+              "addressLocality": "saligao",
+              "addressRegion": "goa",
+              "postalCode": "403511",
+              "addressCountry": "IN"
+            },
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://mbatravelsgoa.com/#logo",
+              "url": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d.png",
+              "contentUrl": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d.png",
+              "caption": "MBA Travels Goa",
+              "inLanguage": "en-US",
+              "width": "967",
+              "height": "578"
+            },
+            "openingHours": [
+              "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 00:00-23:59"
+            ],
+            "legalName": "MBA Travels Goa",
+            "location": {
+              "@id": "https://mbatravelsgoa.com/#place"
+            },
+            "image": {
+              "@id": "https://mbatravelsgoa.com/#logo"
+            },
+            "telephone": "+919322073068"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://mbatravelsgoa.com/#website",
+            "url": "https://mbatravelsgoa.com",
+            "name": "MBA Travels Goa",
+            "alternateName": "MBA Taxi wala Goa",
+            "publisher": {
+              "@id": "https://mbatravelsgoa.com/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://mbatravelsgoa.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-00.42.27.jpeg",
+            "url": "https://mbatravelsgoa.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-00.42.27.jpeg",
+            "width": "1600",
+            "height": "899",
+            "caption": "goa taxi service",
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://mbatravelsgoa.com/goa-taxi-service-contact/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://mbatravelsgoa.com",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                  "@id": "https://mbatravelsgoa.com/goa-taxi-service-contact/",
+                  "name": "Contact Us"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://mbatravelsgoa.com/goa-taxi-service-contact/#webpage",
+            "url": "https://mbatravelsgoa.com/goa-taxi-service-contact/",
+            "name": "Goa Taxi Service | Contact MBA Travels Goa",
+            "datePublished": "2026-08-03T06:38:44+00:00",
+            "dateModified": "2026-10-11T20:04:14+00:00",
+            "isPartOf": {
+              "@id": "https://mbatravelsgoa.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://mbatravelsgoa.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-00.42.27.jpeg"
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "https://mbatravelsgoa.com/goa-taxi-service-contact/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://mbatravelsgoa.com/author/tejas/",
+            "name": "Tejas",
+            "url": "https://mbatravelsgoa.com/author/tejas/",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/800776d3b5dc8e491cc868539cfa5eb8c595966e31150b373c61aedaebfd02df?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/800776d3b5dc8e491cc868539cfa5eb8c595966e31150b373c61aedaebfd02df?s=96&amp;d=mm&amp;r=g",
+              "caption": "Tejas",
+              "inLanguage": "en-US"
+            },
+            "worksFor": {
+              "@id": "https://mbatravelsgoa.com/#organization"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "Goa Taxi Service | Contact MBA Travels Goa",
+            "keywords": "goa taxi service",
+            "datePublished": "2026-08-03T06:38:44+00:00",
+            "dateModified": "2026-10-11T20:04:14+00:00",
+            "author": {
+              "@id": "https://mbatravelsgoa.com/author/tejas/",
+              "name": "Tejas"
+            },
+            "publisher": {
+              "@id": "https://mbatravelsgoa.com/#organization"
+            },
+            "description": "Looking for a Goa taxi service? Contact MBA Travels Goa for airport transfers, private taxi bookings, sightseeing tours and reliable taxi services across Goa. Get in touch today!",
+            "name": "Goa Taxi Service | Contact MBA Travels Goa",
+            "@id": "https://mbatravelsgoa.com/goa-taxi-service-contact/#richSnippet",
+            "isPartOf": {
+              "@id": "https://mbatravelsgoa.com/goa-taxi-service-contact/#webpage"
+            },
+            "image": {
+              "@id": "https://mbatravelsgoa.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-00.42.27.jpeg"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://mbatravelsgoa.com/goa-taxi-service-contact/#webpage"
+            }
+          }
+        ]
+      }
+    ],
+    "headings": [
+      "H2: Contact Us",
+      "H2: Get in Touch with MBA Travels Goa",
+      "H3: Our Taxi Services",
+      "H3: Book Your Ride",
+      "H2: Why Choose Our Goa Taxi Service?",
+      "H2: Goa Airport Transfers and Hotel Pickups",
+      "H2: Private Taxi Service Across Goa",
+      "H2: Goa Sightseeing Tours",
+      "H2: How to Book a Goa Taxi",
+      "H2: Contact MBA Travels Goa",
+      "H2: Benefits of Our Goa Taxi Service"
+    ],
+    "header_nav": [
+      {
+        "text": "",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "MBA Travels Goa",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "Home",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "About Us",
+        "href": "https://mbatravelsgoa.com/about-us/"
+      },
+      {
+        "text": "Packages",
+        "href": "https://mbatravelsgoa.com/packages/"
+      },
+      {
+        "text": "Taxi Services",
+        "href": "https://mbatravelsgoa.com/taxi-services/"
+      },
+      {
+        "text": "Hotels",
+        "href": "https://mbatravelsgoa.com/hotels/"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://mbatravelsgoa.com/gallery/"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://mbatravelsgoa.com/goa-taxi-service-contact/"
+      },
+      {
+        "text": "",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "MBA Travels Goa",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "Home",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "About Us",
+        "href": "https://mbatravelsgoa.com/about-us/"
+      },
+      {
+        "text": "Packages",
+        "href": "https://mbatravelsgoa.com/packages/"
+      },
+      {
+        "text": "Taxi Services",
+        "href": "https://mbatravelsgoa.com/taxi-services/"
+      },
+      {
+        "text": "Hotels",
+        "href": "https://mbatravelsgoa.com/hotels/"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://mbatravelsgoa.com/gallery/"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://mbatravelsgoa.com/goa-taxi-service-contact/"
+      }
+    ],
+    "footer_links": [],
+    "content_text": [
+      "[p] MBA TRAVELS GOA",
+      "[h2] Contact Us",
+      "[p] Looking for a reliable Goa Taxi Service? Contact MBA Travels Goa for comfortable taxi rides, airport transfers and sightseeing tours across Goa.",
+      "[h2] Get in Touch with MBA Travels Goa",
+      "[p] Planning your Goa holiday? Contact us to discuss your travel plans, pickup location, destination and taxi requirements. We help you plan convenient journeys around Goa.",
+      "[h3] Our Taxi Services",
+      "[li] Goa airport transfers",
+      "[li] Private taxi service across Goa",
+      "[li] Goa sightseeing tours",
+      "[li] Hotel pickups and drop-offs",
+      "[h3] Book Your Ride",
+      "[p] Contact our team to enquire about availability and your travel requirements.",
+      "[p] style=”display:inline-block;background:#168b52;color:#fff;padding:15px 25px;border-radius:8px;text-decoration:none;font-weight:bold;”>Contact Us on WhatsApp",
+      "[p] Please use our verified business WhatsApp number to complete your booking.",
+      "[h2] Why Choose Our Goa Taxi Service?",
+      "[p] Choosing a reliable Goa taxi service can make your holiday more comfortable and convenient. MBA Travels Goa helps travellers plan journeys across North Goa and South Goa with private taxi services for airport transfers, hotel pickups, sightseeing trips and local travel. Whether you are visiting Goa for a family holiday, a couple’s getaway or a business trip, you can contact our team to discuss your pickup location and travel requirements.",
+      "[h2] Goa Airport Transfers and Hotel Pickups",
+      "[p] Planning your arrival or departure? Our Goa taxi service can help you arrange transportation to or from Goa’s airports, hotels, resorts and other destinations, subject to availability. Share your flight details, pickup time, destination and passenger requirements when enquiring. Providing these details in advance helps us discuss suitable travel arrangements for your journey.",
+      "[h2] Private Taxi Service Across Goa",
+      "[p] Explore Goa at your own pace with a private taxi booking. You can enquire about travel between beaches, markets, restaurants, hotels and popular attractions. If you plan to visit several places in one day, share your preferred destinations so the route and timing can be discussed before your trip. Our team can help you enquire about a suitable taxi arrangement based on your itinerary and requirements.",
+      "[h2] Goa Sightseeing Tours",
+      "[p] Goa offers a variety of experiences, from beautiful beaches and historic churches to local markets and scenic coastal areas. If you are planning a sightseeing tour, prepare a list of places you would like to visit and let us know how much time you have available. We can discuss your travel plan, pickup point and transportation requirements to help you organise a convenient day of exploring Goa.",
+      "[h2] How to Book a Goa Taxi",
+      "[p] To enquire about our Goa taxi service, contact MBA Travels Goa through WhatsApp using the contact option above. Please share your travel date, pickup location, destination, number of passengers and preferred pickup time. For airport transfers, include your flight arrival or departure details. Our team can then discuss availability, pricing and booking arrangements with you before you confirm your journey.",
+      "[h2] Contact MBA Travels Goa",
+      "[p] Need help planning your next trip? Get in touch with MBA Travels Goa for information about private taxi bookings, airport transfers, hotel pickups and sightseeing travel. We recommend confirming your fare, pickup time and journey details before travelling. Contact us today to discuss your requirements and plan transportation for your Goa holiday.",
+      "[h2] Benefits of Our Goa Taxi Service",
+      "[p] Our Goa taxi service helps visitors travel comfortably between airports, hotels, beaches and popular tourist attractions. Whether you need a private cab for a family holiday, a couple’s trip or business travel, MBA Travels Goa can help you plan your journey. Share your pickup location, destination, travel date and preferred time to discuss your requirements. We also assist travellers looking for airport transfers, hotel pickups and sightseeing trips across North Goa and South Goa. Contact our team to enquire about availability and plan convenient transportation for your Goa holiday."
+    ],
+    "images": [
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d-76x45.png",
+        "alt": "MBA Travels Goa",
+        "w": "76",
+        "h": "45",
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d-76x45.png",
+        "alt": "MBA Travels Goa",
+        "w": "76",
+        "h": "45",
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-00.42.27-1024x575.jpeg",
+        "alt": "goa taxi service",
+        "w": "1024",
+        "h": "575",
+        "loading": null
+      }
+    ],
+    "links": [
+      {
+        "text": "style=”display:inline-block;background:#168b52;color:#fff;padding:15px 25px;border-radius:8px;text-decoration:none;font-weight:bold;”>Contact Us on WhatsApp",
+        "href": "https://wa.me/919322073068",
+        "target": "_blank"
+      }
+    ],
+    "forms": [],
+    "iframes": [],
+    "ctas": [
+      {
+        "text": "style=”display:inline-block;background:#168b52;color:#fff;padding:15px 25px;border-radius:8px;text-decoration:none;font-weight:bold;”>Contact Us on WhatsApp",
+        "href": "https://wa.me/919322073068"
+      }
+    ],
+    "scripts": [
+      "https://mbatravelsgoa.com/wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=4.13.6",
+      "https://mbatravelsgoa.com/wp-content/plugins/hostinger-reach/frontend/dist/blocks/subscription-view.js?ver=1786695969"
+    ]
+  },
+  "hotels": {
+    "url": "/hotels/",
+    "title": "Hotels - MBA Travels Goa",
+    "description": "position:relative;",
+    "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+    "canonical": "https://mbatravelsgoa.com/hotels/",
+    "lang": "en-US",
+    "og": {
+      "og:locale": "en_US",
+      "og:type": "article",
+      "og:title": "Hotels - MBA Travels Goa",
+      "og:description": "position:relative;",
+      "og:url": "https://mbatravelsgoa.com/hotels/",
+      "og:site_name": "MBA Travels Goa",
+      "og:updated_time": "2026-08-04T10:41:38+00:00",
+      "og:image": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-16-53-035_com.openai.chatgpt.jpg-e1785837604568.jpeg",
+      "og:image:secure_url": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-16-53-035_com.openai.chatgpt.jpg-e1785837604568.jpeg",
+      "og:image:width": "1080",
+      "og:image:height": "750",
+      "og:image:alt": "Hotels",
+      "og:image:type": "image/jpeg"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Hotels - MBA Travels Goa",
+      "twitter:description": "position:relative;",
+      "twitter:image": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-16-53-035_com.openai.chatgpt.jpg-e1785837604568.jpeg",
+      "twitter:label1": "Time to read",
+      "twitter:data1": "1 minute"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Place",
+            "@id": "https://mbatravelsgoa.com/#place",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "mollembhat",
+              "addressLocality": "saligao",
+              "addressRegion": "goa",
+              "postalCode": "403511",
+              "addressCountry": "IN"
+            }
+          },
+          {
+            "@type": [
+              "LocalBusiness",
+              "Organization"
+            ],
+            "@id": "https://mbatravelsgoa.com/#organization",
+            "name": "MBA Travels Goa",
+            "url": "https://mbatravelsgoa.com",
+            "sameAs": [
+              "https://www.facebook.com/share/1BkLm8wkYC/"
+            ],
+            "email": "mbatravels12@gmail.com",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "mollembhat",
+              "addressLocality": "saligao",
+              "addressRegion": "goa",
+              "postalCode": "403511",
+              "addressCountry": "IN"
+            },
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://mbatravelsgoa.com/#logo",
+              "url": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d.png",
+              "contentUrl": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d.png",
+              "caption": "MBA Travels Goa",
+              "inLanguage": "en-US",
+              "width": "967",
+              "height": "578"
+            },
+            "openingHours": [
+              "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 00:00-23:59"
+            ],
+            "legalName": "MBA Travels Goa",
+            "location": {
+              "@id": "https://mbatravelsgoa.com/#place"
+            },
+            "image": {
+              "@id": "https://mbatravelsgoa.com/#logo"
+            },
+            "telephone": "+919322073068"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://mbatravelsgoa.com/#website",
+            "url": "https://mbatravelsgoa.com",
+            "name": "MBA Travels Goa",
+            "alternateName": "MBA Taxi wala Goa",
+            "publisher": {
+              "@id": "https://mbatravelsgoa.com/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-16-53-035_com.openai.chatgpt.jpg-e1785837604568.jpeg",
+            "url": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-16-53-035_com.openai.chatgpt.jpg-e1785837604568.jpeg",
+            "width": "200",
+            "height": "200",
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://mbatravelsgoa.com/hotels/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://mbatravelsgoa.com",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                  "@id": "https://mbatravelsgoa.com/hotels/",
+                  "name": "Hotels"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://mbatravelsgoa.com/hotels/#webpage",
+            "url": "https://mbatravelsgoa.com/hotels/",
+            "name": "Hotels - MBA Travels Goa",
+            "datePublished": "2026-08-04T09:30:00+00:00",
+            "dateModified": "2026-08-04T10:41:38+00:00",
+            "isPartOf": {
+              "@id": "https://mbatravelsgoa.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-16-53-035_com.openai.chatgpt.jpg-e1785837604568.jpeg"
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "https://mbatravelsgoa.com/hotels/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://mbatravelsgoa.com/author/tejas/",
+            "name": "Tejas",
+            "url": "https://mbatravelsgoa.com/author/tejas/",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/800776d3b5dc8e491cc868539cfa5eb8c595966e31150b373c61aedaebfd02df?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/800776d3b5dc8e491cc868539cfa5eb8c595966e31150b373c61aedaebfd02df?s=96&amp;d=mm&amp;r=g",
+              "caption": "Tejas",
+              "inLanguage": "en-US"
+            },
+            "worksFor": {
+              "@id": "https://mbatravelsgoa.com/#organization"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "Hotels - MBA Travels Goa",
+            "datePublished": "2026-08-04T09:30:00+00:00",
+            "dateModified": "2026-08-04T10:41:38+00:00",
+            "author": {
+              "@id": "https://mbatravelsgoa.com/author/tejas/",
+              "name": "Tejas"
+            },
+            "publisher": {
+              "@id": "https://mbatravelsgoa.com/#organization"
+            },
+            "description": "position:relative;",
+            "name": "Hotels - MBA Travels Goa",
+            "@id": "https://mbatravelsgoa.com/hotels/#richSnippet",
+            "isPartOf": {
+              "@id": "https://mbatravelsgoa.com/hotels/#webpage"
+            },
+            "image": {
+              "@id": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-16-53-035_com.openai.chatgpt.jpg-e1785837604568.jpeg"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://mbatravelsgoa.com/hotels/#webpage"
+            }
+          }
+        ]
+      }
+    ],
+    "headings": [
+      "H2: Handpicked Hotels & Resorts",
+      "H3: Royal Nirvana Resort",
+      "H3: WS Beach Resort",
+      "H3: Palmarinha Resort",
+      "H3: The Flora Residency",
+      "H3: Neelam The Glitz",
+      "H3: Sinq Beach Resort",
+      "H3: Somy Plaza"
+    ],
+    "header_nav": [
+      {
+        "text": "",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "MBA Travels Goa",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "Home",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "About Us",
+        "href": "https://mbatravelsgoa.com/about-us/"
+      },
+      {
+        "text": "Packages",
+        "href": "https://mbatravelsgoa.com/packages/"
+      },
+      {
+        "text": "Taxi Services",
+        "href": "https://mbatravelsgoa.com/taxi-services/"
+      },
+      {
+        "text": "Hotels",
+        "href": "https://mbatravelsgoa.com/hotels/"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://mbatravelsgoa.com/gallery/"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://mbatravelsgoa.com/goa-taxi-service-contact/"
+      },
+      {
+        "text": "",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "MBA Travels Goa",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "Home",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "About Us",
+        "href": "https://mbatravelsgoa.com/about-us/"
+      },
+      {
+        "text": "Packages",
+        "href": "https://mbatravelsgoa.com/packages/"
+      },
+      {
+        "text": "Taxi Services",
+        "href": "https://mbatravelsgoa.com/taxi-services/"
+      },
+      {
+        "text": "Hotels",
+        "href": "https://mbatravelsgoa.com/hotels/"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://mbatravelsgoa.com/gallery/"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://mbatravelsgoa.com/goa-taxi-service-contact/"
+      }
+    ],
+    "footer_links": [],
+    "content_text": [
+      "[h2] Handpicked Hotels & Resorts",
+      "[p] Discover comfortable stays across Goa with the best prices, personalized assistance and instant booking support.",
+      "[h3] Royal Nirvana Resort",
+      "[p] Comfortable resort perfect for families and couples looking for a relaxing stay in Goa.",
+      "[h3] WS Beach Resort",
+      "[p] Beachside resort offering comfort, convenience and relaxing surroundings.",
+      "[h3] Palmarinha Resort",
+      "[p] Spacious accommodation with excellent hospitality, perfect for guests looking for a relaxing holiday in Goa.",
+      "[h3] The Flora Residency",
+      "[p] A modern and comfortable stay offering elegant rooms, excellent hospitality and easy access to Goa’s popular attractions.",
+      "[h3] Neelam The Glitz",
+      "[p] Enjoy a stylish stay with spacious rooms, modern amenities and warm hospitality, making your Goa holiday truly memorable.",
+      "[h3] Sinq Beach Resort",
+      "[p] A stylish beach resort offering modern rooms, a refreshing swimming pool, excellent dining and easy access to Goa’s vibrant beaches and nightlife.",
+      "[h3] Somy Plaza",
+      "[p] Experience a premium stay with spacious rooms, quality hospitality, modern amenities and convenient access to Goa’s beaches, shopping and attractions."
+    ],
+    "images": [
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d-76x45.png",
+        "alt": "MBA Travels Goa",
+        "w": "76",
+        "h": "45",
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d-76x45.png",
+        "alt": "MBA Travels Goa",
+        "w": "76",
+        "h": "45",
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-16-53-035_com.openai.chatgpt.jpg-e1785837604568.jpeg",
+        "alt": "Royal Nirvana Resort",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-17-14-699_com.openai.chatgpt.jpg-e1785837636812.jpeg",
+        "alt": "Royal Nirvana Resort",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-17-19-423_com.openai.chatgpt.jpg-e1785837527752.jpeg",
+        "alt": "Royal Nirvana Resort",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-16-58-969_com.openai.chatgpt.jpg-e1785837665569.jpeg",
+        "alt": "Royal Nirvana Resort",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-17-26-058_com.openai.chatgpt.jpg-e1785837582427.jpeg",
+        "alt": "Royal Nirvana Resort",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-27-15-115_com.openai.chatgpt.jpg-e1785837929690.jpeg",
+        "alt": "WS Beach Resort",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-27-19-248_com.openai.chatgpt.jpg-e1785837976642.jpeg",
+        "alt": "WS Beach Resort",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-27-32-060_com.openai.chatgpt.jpg-e1785838015169.jpeg",
+        "alt": "WS Beach Resort",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-42-06-645_com.openai.chatgpt.jpg-e1785838168981.jpeg",
+        "alt": "Palmarinha Resort",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-41-49-526_com.openai.chatgpt.jpg-e1785838194368.jpeg",
+        "alt": "Palmarinha Resort",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-42-01-700_com.openai.chatgpt.jpg-e1785838221644.jpeg",
+        "alt": "Palmarinha Resort",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-41-55-653_com.openai.chatgpt.jpg-e1785838146401.jpeg",
+        "alt": "Palmarinha Resort",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-47-10-095_com.openai.chatgpt.jpg-e1785838411236.jpeg",
+        "alt": "The Flora Residency",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-53-31-056_com.openai.chatgpt.jpg-e1785838350582.jpeg",
+        "alt": "The Flora Residency",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-53-36-041_com.openai.chatgpt.jpg-e1785838369869.jpeg",
+        "alt": "The Flora Residency",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-21-47-16-379_com.openai.chatgpt.jpg-e1785838388831.jpeg",
+        "alt": "The Flora Residency",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-22-07-30-668_com.openai.chatgpt.jpg-e1785838561446.jpeg",
+        "alt": "Neelam The Glitz",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-22-08-34-579_com.openai.chatgpt.jpg-e1785838581201.jpeg",
+        "alt": "Neelam The Glitz",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-22-07-41-682_com.openai.chatgpt.jpg-e1785838603143.jpeg",
+        "alt": "Neelam The Glitz",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-22-07-25-459_com.openai.chatgpt.jpg-e1785838686689.jpeg",
+        "alt": "Neelam The Glitz",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-22-12-06-226_com.openai.chatgpt.jpg-e1785838879203.jpeg",
+        "alt": "Sinq Beach Resort",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-22-12-33-956_com.openai.chatgpt.jpg-e1785838854462.jpeg",
+        "alt": "Sinq Beach Resort",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-22-11-18-973_com.openai.chatgpt.jpg-e1785838830598.jpeg",
+        "alt": "Sinq Beach Resort",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-22-14-31-574_com.openai.chatgpt.jpg-e1785839006386.jpeg",
+        "alt": "Somy Plaza",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-22-14-27-665_com.openai.chatgpt.jpg-e1785839149819.jpeg",
+        "alt": "Somy Plaza",
+        "w": null,
+        "h": null,
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/08/Screenshot_2026-08-03-22-14-23-099_com.openai.chatgpt.jpg-e1785839172609.jpeg",
+        "alt": "Somy Plaza",
+        "w": null,
+        "h": null,
+        "loading": null
+      }
+    ],
+    "links": [
+      {
+        "text": "WhatsApp",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "WhatsApp",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "WhatsApp",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "WhatsApp",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "WhatsApp",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "WhatsApp",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068",
+        "target": null
+      },
+      {
+        "text": "WhatsApp",
+        "href": "https://whatsform.com/kkpjba",
+        "target": "_blank"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068",
+        "target": null
+      }
+    ],
+    "forms": [],
+    "iframes": [],
+    "ctas": [
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068"
+      },
+      {
+        "text": "Call Now",
+        "href": "tel:+919322073068"
+      }
+    ],
+    "scripts": [
+      "https://mbatravelsgoa.com/wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=4.13.6",
+      "https://mbatravelsgoa.com/wp-content/plugins/hostinger-reach/frontend/dist/blocks/subscription-view.js?ver=1786695969"
+    ]
+  },
+  "hello-world": {
+    "url": "/hello-world/",
+    "title": "Hello world! - MBA Travels Goa",
+    "description": "Welcome to WordPress. This is your first post. Edit or delete it, then start writing!",
+    "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+    "canonical": "https://mbatravelsgoa.com/hello-world/",
+    "lang": "en-US",
+    "og": {
+      "og:locale": "en_US",
+      "og:type": "article",
+      "og:title": "Hello world! - MBA Travels Goa",
+      "og:description": "Welcome to WordPress. This is your first post. Edit or delete it, then start writing!",
+      "og:url": "https://mbatravelsgoa.com/hello-world/",
+      "og:site_name": "MBA Travels Goa"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Hello world! - MBA Travels Goa",
+      "twitter:description": "Welcome to WordPress. This is your first post. Edit or delete it, then start writing!",
+      "twitter:label1": "Written by",
+      "twitter:data1": "Rodan",
+      "twitter:label2": "Time to read",
+      "twitter:data2": "Less than a minute"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Place",
+            "@id": "https://mbatravelsgoa.com/#place",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "mollembhat",
+              "addressLocality": "saligao",
+              "addressRegion": "goa",
+              "postalCode": "403511",
+              "addressCountry": "IN"
+            }
+          },
+          {
+            "@type": [
+              "LocalBusiness",
+              "Organization"
+            ],
+            "@id": "https://mbatravelsgoa.com/#organization",
+            "name": "MBA Travels Goa",
+            "url": "https://mbatravelsgoa.com",
+            "sameAs": [
+              "https://www.facebook.com/share/1BkLm8wkYC/"
+            ],
+            "email": "mbatravels12@gmail.com",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "mollembhat",
+              "addressLocality": "saligao",
+              "addressRegion": "goa",
+              "postalCode": "403511",
+              "addressCountry": "IN"
+            },
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://mbatravelsgoa.com/#logo",
+              "url": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d.png",
+              "contentUrl": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d.png",
+              "caption": "MBA Travels Goa",
+              "inLanguage": "en-US",
+              "width": "967",
+              "height": "578"
+            },
+            "openingHours": [
+              "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 00:00-23:59"
+            ],
+            "legalName": "MBA Travels Goa",
+            "location": {
+              "@id": "https://mbatravelsgoa.com/#place"
+            },
+            "image": {
+              "@id": "https://mbatravelsgoa.com/#logo"
+            },
+            "telephone": "+919322073068"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://mbatravelsgoa.com/#website",
+            "url": "https://mbatravelsgoa.com",
+            "name": "MBA Travels Goa",
+            "alternateName": "MBA Taxi wala Goa",
+            "publisher": {
+              "@id": "https://mbatravelsgoa.com/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://mbatravelsgoa.com/hello-world/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://mbatravelsgoa.com",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                  "@id": "https://mbatravelsgoa.com/category/blog/",
+                  "name": "Blog"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": "3",
+                "item": {
+                  "@id": "https://mbatravelsgoa.com/hello-world/",
+                  "name": "Hello world!"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://mbatravelsgoa.com/hello-world/#webpage",
+            "url": "https://mbatravelsgoa.com/hello-world/",
+            "name": "Hello world! - MBA Travels Goa",
+            "datePublished": "2026-07-22T08:20:53+00:00",
+            "dateModified": "2026-07-22T08:20:53+00:00",
+            "isPartOf": {
+              "@id": "https://mbatravelsgoa.com/#website"
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "https://mbatravelsgoa.com/hello-world/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://mbatravelsgoa.com/author/rodan/",
+            "name": "Rodan",
+            "url": "https://mbatravelsgoa.com/author/rodan/",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/d3c9466cbee3614ec9777c7b448ffd6354b4af83c4883881c42dd15c48bc9c27?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/d3c9466cbee3614ec9777c7b448ffd6354b4af83c4883881c42dd15c48bc9c27?s=96&amp;d=mm&amp;r=g",
+              "caption": "Rodan",
+              "inLanguage": "en-US"
+            },
+            "sameAs": [
+              "https://mbatravels.vijomi.com"
+            ],
+            "worksFor": {
+              "@id": "https://mbatravelsgoa.com/#organization"
+            }
+          },
+          {
+            "@type": "BlogPosting",
+            "headline": "Hello world! - MBA Travels Goa",
+            "datePublished": "2026-07-22T08:20:53+00:00",
+            "dateModified": "2026-07-22T08:20:53+00:00",
+            "articleSection": "Blog",
+            "author": {
+              "@id": "https://mbatravelsgoa.com/author/rodan/",
+              "name": "Rodan"
+            },
+            "publisher": {
+              "@id": "https://mbatravelsgoa.com/#organization"
+            },
+            "description": "Welcome to WordPress. This is your first post. Edit or delete it, then start writing!",
+            "name": "Hello world! - MBA Travels Goa",
+            "@id": "https://mbatravelsgoa.com/hello-world/#richSnippet",
+            "isPartOf": {
+              "@id": "https://mbatravelsgoa.com/hello-world/#webpage"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://mbatravelsgoa.com/hello-world/#webpage"
+            }
+          }
+        ]
+      }
+    ],
+    "headings": [
+      "H1: Hello world!",
+      "H3: 1 thought on “Hello world!”",
+      "H3: Leave a Comment Cancel Reply"
+    ],
+    "header_nav": [
+      {
+        "text": "",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "MBA Travels Goa",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "Home",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "About Us",
+        "href": "https://mbatravelsgoa.com/about-us/"
+      },
+      {
+        "text": "Packages",
+        "href": "https://mbatravelsgoa.com/packages/"
+      },
+      {
+        "text": "Taxi Services",
+        "href": "https://mbatravelsgoa.com/taxi-services/"
+      },
+      {
+        "text": "Hotels",
+        "href": "https://mbatravelsgoa.com/hotels/"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://mbatravelsgoa.com/gallery/"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://mbatravelsgoa.com/goa-taxi-service-contact/"
+      },
+      {
+        "text": "",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "MBA Travels Goa",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "Home",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "About Us",
+        "href": "https://mbatravelsgoa.com/about-us/"
+      },
+      {
+        "text": "Packages",
+        "href": "https://mbatravelsgoa.com/packages/"
+      },
+      {
+        "text": "Taxi Services",
+        "href": "https://mbatravelsgoa.com/taxi-services/"
+      },
+      {
+        "text": "Hotels",
+        "href": "https://mbatravelsgoa.com/hotels/"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://mbatravelsgoa.com/gallery/"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://mbatravelsgoa.com/goa-taxi-service-contact/"
+      },
+      {
+        "text": "Rodan",
+        "href": "https://mbatravelsgoa.com/author/rodan/"
+      },
+      {
+        "text": "A WordPress Commenter",
+        "href": "https://wordpress.org/"
+      },
+      {
+        "text": "July 22, 2026 at 8:20 am",
+        "href": "https://mbatravelsgoa.com/hello-world/#comment-1"
+      }
+    ],
+    "footer_links": [],
+    "content_text": [
+      "[h1] Hello world!",
+      "[p] Welcome to WordPress. This is your first post. Edit or delete it, then start writing!",
+      "[h3] 1 thought on “Hello world!”",
+      "[p] Hi, this is a comment. To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard. Commenter avatars come from Gravatar.",
+      "[h3] Leave a Comment Cancel Reply",
+      "[p] Your email address will not be published. Required fields are marked *",
+      "[label] Type here..",
+      "[p] Name*",
+      "[label] Name*",
+      "[p] Email*",
+      "[label] Email*",
+      "[p] Website",
+      "[label] Website",
+      "[p] Save my name, email, and website in this browser for the next time I comment.",
+      "[label] Save my name, email, and website in this browser for the next time I comment."
+    ],
+    "images": [
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d-76x45.png",
+        "alt": "MBA Travels Goa",
+        "w": "76",
+        "h": "45",
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d-76x45.png",
+        "alt": "MBA Travels Goa",
+        "w": "76",
+        "h": "45",
+        "loading": null
+      },
+      {
+        "src": "https://secure.gravatar.com/avatar/8e1606e6fba450a9362af43874c1b2dfad34c782e33d0a51e1b46c18a2a567dd?s=50&d=mm&r=g",
+        "alt": "",
+        "w": "50",
+        "h": "50",
+        "loading": null
+      }
+    ],
+    "links": [
+      {
+        "text": "Rodan",
+        "href": "https://mbatravelsgoa.com/author/rodan/",
+        "target": null
+      },
+      {
+        "text": "A WordPress Commenter",
+        "href": "https://wordpress.org/",
+        "target": null
+      },
+      {
+        "text": "July 22, 2026 at 8:20 am",
+        "href": "https://mbatravelsgoa.com/hello-world/#comment-1",
+        "target": null
+      },
+      {
+        "text": "Gravatar",
+        "href": "https://gravatar.com/",
+        "target": null
+      },
+      {
+        "text": "Reply",
+        "href": "#comment-1",
+        "target": null
+      },
+      {
+        "text": "Cancel Reply",
+        "href": "/hello-world/#respond",
+        "target": null
+      }
+    ],
+    "forms": [
+      {
+        "id": "ast-commentform",
+        "class": "comment-form",
+        "action": "https://mbatravelsgoa.com/wp-comments-post.php",
+        "method": "post",
+        "fields": [
+          {
+            "tag": "textarea",
+            "type": null,
+            "name": "comment",
+            "id": "comment",
+            "placeholder": "Type here..",
+            "required": true,
+            "label": "Type here.."
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "author",
+            "id": "author",
+            "placeholder": "Name*",
+            "required": true,
+            "label": "Name*"
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "email",
+            "id": "email",
+            "placeholder": "Email*",
+            "required": true,
+            "label": "Email*"
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "url",
+            "id": "url",
+            "placeholder": "Website",
+            "required": false,
+            "label": "Website"
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "name": "wp-comment-cookies-consent",
+            "id": "wp-comment-cookies-consent",
+            "placeholder": null,
+            "required": false,
+            "label": "Save my name, email, and website in this browser for the next time I comment."
+          },
+          {
+            "tag": "input",
+            "type": "submit",
+            "name": "submit",
+            "id": "submit",
+            "placeholder": null,
+            "required": false,
+            "label": null
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "comment_post_ID",
+            "id": "comment_post_ID",
+            "placeholder": null,
+            "required": false,
+            "label": null,
+            "value": "1"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "comment_parent",
+            "id": "comment_parent",
+            "placeholder": null,
+            "required": false,
+            "label": null,
+            "value": "0"
+          }
+        ]
+      }
+    ],
+    "iframes": [],
+    "ctas": [],
+    "scripts": [
+      "https://mbatravelsgoa.com/wp-includes/js/comment-reply.min.js?ver=7.1.3",
+      "https://mbatravelsgoa.com/wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=4.13.6",
+      "https://mbatravelsgoa.com/wp-content/plugins/hostinger-reach/frontend/dist/blocks/subscription-view.js?ver=1786695969"
+    ]
+  },
+  "category-blog": {
+    "url": "/category/blog/",
+    "title": "Blog - MBA Travels Goa",
+    "description": "Your blog category",
+    "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+    "canonical": "https://mbatravelsgoa.com/category/blog/",
+    "lang": "en-US",
+    "og": {
+      "og:locale": "en_US",
+      "og:type": "article",
+      "og:title": "Blog - MBA Travels Goa",
+      "og:description": "Your blog category",
+      "og:url": "https://mbatravelsgoa.com/category/blog/",
+      "og:site_name": "MBA Travels Goa"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Blog - MBA Travels Goa",
+      "twitter:description": "Your blog category",
+      "twitter:label1": "Posts",
+      "twitter:data1": "1"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Place",
+            "@id": "https://mbatravelsgoa.com/#place",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "mollembhat",
+              "addressLocality": "saligao",
+              "addressRegion": "goa",
+              "postalCode": "403511",
+              "addressCountry": "IN"
+            }
+          },
+          {
+            "@type": "LocalBusiness",
+            "@id": "https://mbatravelsgoa.com/#organization",
+            "name": "MBA Travels Goa",
+            "url": "https://mbatravelsgoa.com",
+            "sameAs": [
+              "https://www.facebook.com/share/1BkLm8wkYC/"
+            ],
+            "email": "mbatravels12@gmail.com",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "mollembhat",
+              "addressLocality": "saligao",
+              "addressRegion": "goa",
+              "postalCode": "403511",
+              "addressCountry": "IN"
+            },
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://mbatravelsgoa.com/#logo",
+              "url": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d.png",
+              "contentUrl": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d.png",
+              "caption": "MBA Travels Goa",
+              "inLanguage": "en-US",
+              "width": "967",
+              "height": "578"
+            },
+            "openingHours": [
+              "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 00:00-23:59"
+            ],
+            "legalName": "MBA Travels Goa",
+            "location": {
+              "@id": "https://mbatravelsgoa.com/#place"
+            },
+            "image": {
+              "@id": "https://mbatravelsgoa.com/#logo"
+            },
+            "telephone": "+919322073068"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://mbatravelsgoa.com/#website",
+            "url": "https://mbatravelsgoa.com",
+            "name": "MBA Travels Goa",
+            "alternateName": "MBA Taxi wala Goa",
+            "publisher": {
+              "@id": "https://mbatravelsgoa.com/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://mbatravelsgoa.com/category/blog/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://mbatravelsgoa.com",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                  "@id": "https://mbatravelsgoa.com/category/blog/",
+                  "name": "Blog"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://mbatravelsgoa.com/category/blog/#webpage",
+            "url": "https://mbatravelsgoa.com/category/blog/",
+            "name": "Blog - MBA Travels Goa",
+            "isPartOf": {
+              "@id": "https://mbatravelsgoa.com/#website"
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "https://mbatravelsgoa.com/category/blog/#breadcrumb"
+            }
+          }
+        ]
+      }
+    ],
+    "headings": [
+      "H1: Blog",
+      "H2: Hello world!"
+    ],
+    "header_nav": [
+      {
+        "text": "",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "MBA Travels Goa",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "Home",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "About Us",
+        "href": "https://mbatravelsgoa.com/about-us/"
+      },
+      {
+        "text": "Packages",
+        "href": "https://mbatravelsgoa.com/packages/"
+      },
+      {
+        "text": "Taxi Services",
+        "href": "https://mbatravelsgoa.com/taxi-services/"
+      },
+      {
+        "text": "Hotels",
+        "href": "https://mbatravelsgoa.com/hotels/"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://mbatravelsgoa.com/gallery/"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://mbatravelsgoa.com/goa-taxi-service-contact/"
+      },
+      {
+        "text": "",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "MBA Travels Goa",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "Home",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "About Us",
+        "href": "https://mbatravelsgoa.com/about-us/"
+      },
+      {
+        "text": "Packages",
+        "href": "https://mbatravelsgoa.com/packages/"
+      },
+      {
+        "text": "Taxi Services",
+        "href": "https://mbatravelsgoa.com/taxi-services/"
+      },
+      {
+        "text": "Hotels",
+        "href": "https://mbatravelsgoa.com/hotels/"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://mbatravelsgoa.com/gallery/"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://mbatravelsgoa.com/goa-taxi-service-contact/"
+      },
+      {
+        "text": "Rodan",
+        "href": "https://mbatravelsgoa.com/author/rodan/"
+      }
+    ],
+    "footer_links": [],
+    "content_text": [
+      "[h1] Blog",
+      "[p] Your blog category",
+      "[h2] Hello world!",
+      "[p] Welcome to WordPress. This is your first post. Edit or delete it, then start writing!"
+    ],
+    "images": [
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d-76x45.png",
+        "alt": "MBA Travels Goa",
+        "w": "76",
+        "h": "45",
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d-76x45.png",
+        "alt": "MBA Travels Goa",
+        "w": "76",
+        "h": "45",
+        "loading": null
+      }
+    ],
+    "links": [
+      {
+        "text": "Blog",
+        "href": "https://mbatravelsgoa.com/category/blog/",
+        "target": null
+      },
+      {
+        "text": "Hello world!",
+        "href": "https://mbatravelsgoa.com/hello-world/",
+        "target": null
+      },
+      {
+        "text": "Rodan",
+        "href": "https://mbatravelsgoa.com/author/rodan/",
+        "target": null
+      }
+    ],
+    "forms": [],
+    "iframes": [],
+    "ctas": [],
+    "scripts": [
+      "https://mbatravelsgoa.com/wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=4.13.6",
+      "https://mbatravelsgoa.com/wp-content/plugins/hostinger-reach/frontend/dist/blocks/subscription-view.js?ver=1786695969"
+    ]
+  },
+  "404test": {
+    "url": "/this-page-does-not-exist-xyz/",
+    "title": "Page Not Found - MBA Travels Goa",
+    "description": null,
+    "robots": "follow, noindex",
+    "canonical": null,
+    "lang": "en-US",
+    "og": {
+      "og:locale": "en_US",
+      "og:type": "article",
+      "og:title": "Page Not Found - MBA Travels Goa",
+      "og:site_name": "MBA Travels Goa"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Page Not Found - MBA Travels Goa"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Place",
+            "@id": "https://mbatravelsgoa.com/#place",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "mollembhat",
+              "addressLocality": "saligao",
+              "addressRegion": "goa",
+              "postalCode": "403511",
+              "addressCountry": "IN"
+            }
+          },
+          {
+            "@type": "LocalBusiness",
+            "@id": "https://mbatravelsgoa.com/#organization",
+            "name": "MBA Travels Goa",
+            "url": "https://mbatravelsgoa.com",
+            "sameAs": [
+              "https://www.facebook.com/share/1BkLm8wkYC/"
+            ],
+            "email": "mbatravels12@gmail.com",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "mollembhat",
+              "addressLocality": "saligao",
+              "addressRegion": "goa",
+              "postalCode": "403511",
+              "addressCountry": "IN"
+            },
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://mbatravelsgoa.com/#logo",
+              "url": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d.png",
+              "contentUrl": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d.png",
+              "caption": "MBA Travels Goa",
+              "inLanguage": "en-US",
+              "width": "967",
+              "height": "578"
+            },
+            "openingHours": [
+              "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 00:00-23:59"
+            ],
+            "legalName": "MBA Travels Goa",
+            "location": {
+              "@id": "https://mbatravelsgoa.com/#place"
+            },
+            "image": {
+              "@id": "https://mbatravelsgoa.com/#logo"
+            },
+            "telephone": "+919322073068"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://mbatravelsgoa.com/#website",
+            "url": "https://mbatravelsgoa.com",
+            "name": "MBA Travels Goa",
+            "alternateName": "MBA Taxi wala Goa",
+            "publisher": {
+              "@id": "https://mbatravelsgoa.com/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://mbatravelsgoa.com",
+                  "name": "Home"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "#webpage",
+            "url": "",
+            "name": "Page Not Found - MBA Travels Goa",
+            "isPartOf": {
+              "@id": "https://mbatravelsgoa.com/#website"
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "#breadcrumb"
+            }
+          }
+        ]
+      }
+    ],
+    "headings": [
+      "H1: This page doesn't seem to exist.",
+      "H3: It looks like the link pointing here was faulty. Maybe try searching?"
+    ],
+    "header_nav": [
+      {
+        "text": "",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "MBA Travels Goa",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "Home",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "About Us",
+        "href": "https://mbatravelsgoa.com/about-us/"
+      },
+      {
+        "text": "Packages",
+        "href": "https://mbatravelsgoa.com/packages/"
+      },
+      {
+        "text": "Taxi Services",
+        "href": "https://mbatravelsgoa.com/taxi-services/"
+      },
+      {
+        "text": "Hotels",
+        "href": "https://mbatravelsgoa.com/hotels/"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://mbatravelsgoa.com/gallery/"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://mbatravelsgoa.com/goa-taxi-service-contact/"
+      },
+      {
+        "text": "",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "MBA Travels Goa",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "Home",
+        "href": "https://mbatravelsgoa.com/"
+      },
+      {
+        "text": "About Us",
+        "href": "https://mbatravelsgoa.com/about-us/"
+      },
+      {
+        "text": "Packages",
+        "href": "https://mbatravelsgoa.com/packages/"
+      },
+      {
+        "text": "Taxi Services",
+        "href": "https://mbatravelsgoa.com/taxi-services/"
+      },
+      {
+        "text": "Hotels",
+        "href": "https://mbatravelsgoa.com/hotels/"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://mbatravelsgoa.com/gallery/"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://mbatravelsgoa.com/goa-taxi-service-contact/"
+      }
+    ],
+    "footer_links": [],
+    "content_text": [
+      "[h1] This page doesn't seem to exist.",
+      "[h3] It looks like the link pointing here was faulty. Maybe try searching?",
+      "[label] Search for: Search",
+      "[button] Search"
+    ],
+    "images": [
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d-76x45.png",
+        "alt": "MBA Travels Goa",
+        "w": "76",
+        "h": "45",
+        "loading": null
+      },
+      {
+        "src": "https://mbatravelsgoa.com/wp-content/uploads/2026/07/cropped-file_00000000e96081fab985888c376ae30d-76x45.png",
+        "alt": "MBA Travels Goa",
+        "w": "76",
+        "h": "45",
+        "loading": null
+      }
+    ],
+    "links": [],
+    "forms": [
+      {
+        "id": null,
+        "class": "search-form",
+        "action": "https://mbatravelsgoa.com/",
+        "method": "get",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "search",
+            "name": "s",
+            "id": "search-field-sticky",
+            "placeholder": "Search...",
+            "required": false,
+            "label": null
+          },
+          {
+            "tag": "button",
+            "type": null,
+            "name": null,
+            "id": null,
+            "placeholder": null,
+            "required": false,
+            "label": null,
+            "value": "Search"
+          },
+          {
+            "tag": "input",
+            "type": "submit",
+            "name": null,
+            "id": null,
+            "placeholder": null,
+            "required": false,
+            "label": null
+          }
+        ]
+      }
+    ],
+    "iframes": [],
+    "ctas": [],
+    "scripts": [
+      "https://mbatravelsgoa.com/wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=4.13.6",
+      "https://mbatravelsgoa.com/wp-content/plugins/hostinger-reach/frontend/dist/blocks/subscription-view.js?ver=1786695969"
+    ]
+  }
+}

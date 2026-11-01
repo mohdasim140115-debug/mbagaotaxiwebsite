@@ -1,0 +1,48 @@
+
+=== SECTION 1: section.mba-packages
+<span .mba-section-tag> GOA TOUR PACKAGES
+<h2 .mba-section-title> Discover The Best Of Goa
+<p .mba-section-description> Explore Goa with carefully planned sightseeing packages designed for couples, families and groups.
+<img> src=https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1200&q=80 alt="North Goa Tour"
+<span .mba-package-badge> Popular
+<h3> North Goa Tour
+<p> Baga Beach • Calangute • Fort Aguada • Candolim • Anjuna
+<span> Full Day
+<span> 5 Stops
+<strong> Starts From ₹2,500
+<a href=https://wa.me/919000000000?text=Hi,%20I%20want%20to%20book%20North%20Goa%20Tour target=_blank> Book
+<img> src=https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80 alt="South Goa Tour"
+<h3> South Goa Tour
+<p> Miramar • Dona Paula • Basilica • Colva • Churches
+<span> Full Day
+<span> 6 Stops
+<strong> Starts From ₹2,700
+<a href=https://wa.me/919000000000?text=Hi,%20I%20want%20to%20book%20South%20Goa%20Tour target=_blank> Book
+<img> src=https://i.pinimg.com/736x/cb/b0/93/cbb0932c7e9829997c2ce238b66305cf.jpg alt="Dudhsagar"
+<h3> Dudhsagar Trip
+<p> Jeep Safari • Waterfall • Spice Plantation
+<span> Full Day
+<span> Adventure
+<strong> Starts From ₹3,500
+<a href=https://wa.me/919000000000?text=Hi,%20I%20want%20to%20book%20Dudhsagar%20Trip target=_blank> Book
+<img> src=https://i.pinimg.com/736x/49/a2/cd/49a2cd943b5c7ca9d0c0ca368a880d11.jpg alt="Cruise"
+<h3> Sunset Cruise
+<p> Mandovi River • Live Music • Sunset Views
+<span> Evening
+<span> Cruise
+<strong> Starts From ₹1,500
+<a href=https://wa.me/919000000000?text=Hi,%20I%20want%20to%20book%20Sunset%20Cruise target=_blank> Book
+<img> src=https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80 alt="Custom Tour"
+<h3> Custom Tour
+<p> Plan your own itinerary with a dedicated vehicle.
+<span> Flexible
+<span> Your Choice
+<strong> Custom Pricing
+<a href=https://wa.me/919000000000?text=Hi,%20I%20want%20a%20Custom%20Goa%20Tour target=_blank> Enquire
+<img> src=https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1200&q=80 alt="Airport + Tour"
+<h3> Airport + Sightseeing
+<p> Airport pickup with same-day sightseeing package.
+<span> Pickup Included
+<span> Flexible Route
+<strong> Best Value
+<a href=https://wa.me/919000000000?text=Hi,%20I%20want%20Airport%20Pickup%20with%20Sightseeing target=_blank> Book

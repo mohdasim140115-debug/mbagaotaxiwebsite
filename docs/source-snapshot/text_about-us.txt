@@ -1,0 +1,49 @@
+
+=== SECTION 1: section.mba-about
+<img> src=https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=900&q=80 alt="MBA Travels"
+<img> src=https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=700&q=80 alt="Goa"
+<h3> 8+
+<span> Years Of Experience
+<span .mba-section-tag> ABOUT MBA TRAVELS
+<h2 .mba-section-title> Your Trusted Travel Partner In Goa
+<p .mba-about-text> MBA Travels is committed to making every journey across Goa comfortable, reliable and memorable. From airport transfers and taxi rentals to customised sightseeing tours and hotel bookings, we provide complete travel solutions with professional service and transparent pricing.
+<p .mba-about-text> Whether you’re travelling with family, friends or for business, our experienced team ensures a smooth travel experience from the moment you arrive until your trip concludes.
+<span> Professional Drivers
+<span> Transparent Pricing
+<span> Clean & Comfortable Vehicles
+<span> 24×7 Customer Support
+<span> Airport Pickup & Drop
+<span> Customized Goa Tour Packages
+<a href=https://wa.me/919322072068?text=Hi,%20I%20would%20like%20to%20plan%20my%20Goa%20trip. target=_blank> Plan Your Trip
+<a href=tel:+919322072068> Call Now
+
+=== SECTION 3: section.mba-why
+<span .mba-section-tag> WHY CHOOSE US
+<h2 .mba-section-title> Why Thousands Of Travellers Choose MBA Travels
+<p .mba-section-description> We combine reliable transportation, professional service, transparent pricing and local expertise to make every journey across Goa comfortable and memorable.
+<h3> Local Experts
+<p> Our experienced local drivers know every beach, attraction and hidden destination across Goa, ensuring a smooth and enjoyable journey.
+<h3> Transparent Pricing
+<p> Enjoy affordable rates with absolutely no hidden charges. What you see is exactly what you pay.
+<h3> Safe & Comfortable
+<p> Our clean, well-maintained vehicles and professional drivers ensure a secure and comfortable travel experience every time.
+<h3> 24×7 Customer Support
+<p> Whether it’s an airport pickup, taxi booking or sightseeing tour, our team is always ready to assist you whenever you need us.
+
+=== SECTION 5: section.mba-journey
+<span .mba-section-tag> OUR JOURNEY
+<h2 .mba-section-title> Every Journey Begins With Trust
+<p .mba-journey-text> MBA Travels was founded with one simple mission — to make travelling across Goa comfortable, reliable and completely stress-free. From airport transfers and local sightseeing to customised holiday packages, we have proudly served thousands of travellers with professionalism and care.
+<p .mba-journey-text> Every booking is handled with attention to detail because we believe every customer deserves a memorable travel experience.
+<h3 .mba-counter> 0
+<span> Happy Travellers
+<h3 .mba-counter> 0
+<span> Premium Vehicles
+<h3 .mba-counter> 0
+<span> Years Experience
+<h3> 4.9★
+<span> Customer Rating
+<h2> Ready To Explore Goa?
+<p> Book your taxi, airport transfer or holiday package today and let MBA Travels make your trip comfortable and memorable.
+<a href=https://wa.me/919322072068?text=Hi,%20I%20want%20to%20plan%20my%20Goa%20trip. target=_blank> WhatsApp Booking
+<a href=tel:+919322072068> Call Now
