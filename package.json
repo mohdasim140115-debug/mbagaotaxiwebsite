@@ -13,7 +13,8 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "tsx scripts/migrate.ts",
     "db:seed": "tsx scripts/seed/index.mts",
-    "admin:create": "tsx scripts/create-admin.mts"
+    "admin:create": "tsx scripts/create-admin.mts",
+    "db:setup:vercel": "node scripts/setup-vercel-db.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "6.0.2",
