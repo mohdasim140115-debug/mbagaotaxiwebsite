@@ -1,1 +1,0 @@
-ALTER TABLE `site_settings` MODIFY COLUMN `value` json;

@@ -1,5 +1,5 @@
 import { NextResponse, type NextFetchEvent, type NextRequest } from "next/server";
-import mysql from "mysql2/promise";
+import { MongoClient, type Db } from "mongodb";
 import { matchRedirect, type RedirectRule } from "@/lib/redirects";
 
 /*
@@ -9,16 +9,24 @@ import { matchRedirect, type RedirectRule } from "@/lib/redirects";
  *  3. CMS-managed redirects (301/302) and 410 Gone, cached for 30 s
  */
 
-let pool: mysql.Pool | null = null;
+let dbPromise: Promise<Db> | null = null;
+function getDb() {
+  dbPromise ??= (async () => {
+    const url = process.env.DATABASE_URL!;
+    const client = await new MongoClient(url, { maxPoolSize: 2 }).connect();
+    const name = process.env.MONGODB_DB || new URL(url.replace("mongodb+srv:", "http:").replace("mongodb:", "http:")).pathname.slice(1) || "mba_travels";
+    return client.db(name);
+  })();
+  return dbPromise;
+}
 let cache: { at: number; rules: RedirectRule[] } | null = null;
 const TTL_MS = 30_000;
 
 async function loadRules(): Promise<RedirectRule[]> {
   if (cache && Date.now() - cache.at < TTL_MS) return cache.rules;
   try {
-    pool ??= mysql.createPool({ uri: process.env.DATABASE_URL!, connectionLimit: 2 });
-    const [rows] = await pool.query("SELECT id, source_path AS sourcePath, destination, status_code AS statusCode FROM redirects WHERE is_active = 1");
-    cache = { at: Date.now(), rules: rows as RedirectRule[] };
+    const rows = await (await getDb()).collection("redirects").find({ isActive: true }, { projection: { _id: 0, id: 1, sourcePath: 1, destination: 1, statusCode: 1 } }).toArray();
+    cache = { at: Date.now(), rules: rows as unknown as RedirectRule[] };
   } catch (err) {
     // Never take the site down because the redirect table is unreachable.
     console.error("[proxy] redirect load failed", err);
@@ -34,16 +42,19 @@ const KNOWN_TTL_MS = 5_000;
 async function loadKnownPaths(): Promise<Set<string> | null> {
   if (knownCache && Date.now() - knownCache.at < KNOWN_TTL_MS) return knownCache.paths;
   try {
-    pool ??= mysql.createPool({ uri: process.env.DATABASE_URL!, connectionLimit: 2 });
-    const [pages] = await pool.query("SELECT path FROM pages WHERE status = 'published'");
-    const [pkgs] = await pool.query("SELECT slug FROM packages WHERE status = 'published' AND has_detail_page = 1");
+    const db = await getDb();
+    const list = (c: string, q: object, field: string) => db.collection(c).find(q, { projection: { _id: 0, [field]: 1 } }).toArray() as Promise<Record<string, string>[]>;
+    const [pages, pkgs, vehs, blog] = await Promise.all([
+      list("pages", { status: "published" }, "path"),
+      list("packages", { status: "published", hasDetailPage: true }, "slug"),
+      list("vehicles", { status: "published", hasDetailPage: true }, "slug"),
+      list("posts", { status: "published" }, "slug"),
+    ]);
     const paths = new Set<string>(["/image-credits/", "/not-found-route/"]);
-    for (const p of pages as { path: string }[]) paths.add(p.path);
-    for (const p of pkgs as { slug: string }[]) paths.add(`/packages/${p.slug}/`);
-    const [vehs] = await pool.query("SELECT slug FROM vehicles WHERE status = 'published' AND has_detail_page = 1");
-    for (const p of vehs as { slug: string }[]) paths.add(`/taxi-services/${p.slug}/`);
-    const [blog] = await pool.query("SELECT slug FROM posts WHERE status = 'published'");
-    for (const p of blog as { slug: string }[]) paths.add(`/blog/${p.slug}/`);
+    for (const p of pages) paths.add(p.path!);
+    for (const p of pkgs) paths.add(`/packages/${p.slug}/`);
+    for (const p of vehs) paths.add(`/taxi-services/${p.slug}/`);
+    for (const p of blog) paths.add(`/blog/${p.slug}/`);
     knownCache = { at: Date.now(), paths };
     return paths;
   } catch (err) {
@@ -72,7 +83,7 @@ export async function proxy(request: NextRequest, event: NextFetchEvent) {
     event.waitUntil(
       (async () => {
         try {
-          await pool?.query("UPDATE redirects SET hits = hits + 1, last_hit_at = UTC_TIMESTAMP() WHERE id = ?", [rule.id]);
+          await (await getDb()).collection("redirects").updateOne({ id: rule.id }, { $inc: { hits: 1 }, $set: { lastHitAt: new Date() } });
         } catch {
           /* hit counting is best-effort */
         }

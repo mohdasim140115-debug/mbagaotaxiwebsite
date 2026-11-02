@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { and, eq } from "drizzle-orm";
+import { and, eq } from "@/server/db/orm";
 import { cacheLife, cacheTag } from "next/cache";
 import { db, schema } from "@/server/db/client";
 import { getPublishedPackages, getPublishedPagePaths, getPublishedPosts, getPublishedVehicles } from "@/server/cms/public";

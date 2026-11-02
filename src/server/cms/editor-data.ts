@@ -1,5 +1,5 @@
 import "server-only";
-import { inArray } from "drizzle-orm";
+import { inArray } from "@/server/db/orm";
 import { db, schema } from "../db/client";
 import { mediaUrl } from "./public";
 import { refOptions } from "./entity-store";

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { desc, eq, sql } from "drizzle-orm";
+import { desc, eq, sql } from "@/server/db/orm";
 import { db, schema } from "@/server/db/client";
 import { requireAdmin } from "@/server/auth/session";
 import { PageTitle } from "@/components/admin/ui";

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { and, eq } from "drizzle-orm";
+import { and, eq } from "@/server/db/orm";
 import { can, requireAdmin } from "@/server/auth/session";
 import { listRevisions, loadEntity } from "@/server/cms/entity-store";
 import { allRefOptions, deepMediaIds, mediaThumbs } from "@/server/cms/editor-data";

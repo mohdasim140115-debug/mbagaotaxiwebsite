@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { eq } from "drizzle-orm";
+import { eq } from "@/server/db/orm";
 import { can, requireAdmin } from "@/server/auth/session";
 import { loadPage } from "@/server/cms/page-store";
 import { listRevisions } from "@/server/cms/entity-store";

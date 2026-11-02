@@ -1,4 +1,4 @@
-import { asc, eq } from "drizzle-orm";
+import { asc, eq } from "@/server/db/orm";
 import { db, schema } from "@/server/db/client";
 import { requireAdmin } from "@/server/auth/session";
 import { NavigationEditor } from "@/components/admin/navigation-editor";

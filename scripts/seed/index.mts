@@ -10,10 +10,9 @@ import { createHash, randomBytes } from "node:crypto";
 import { existsSync } from "node:fs";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
-import mysql from "mysql2/promise";
 import sharp from "sharp";
-import { drizzle } from "drizzle-orm/mysql2";
-import { sql } from "drizzle-orm";
+import { count, eq } from "../../src/server/db/orm/kit";
+import { Database, closeDb, ensureSchema, getDb } from "../../src/server/db/orm/engine";
 import * as schema from "../../src/server/db/schema";
 import { ROLES, PERMISSIONS } from "../../src/lib/permissions";
 import { DEFAULT_SETTINGS, PRIVATE_SETTING_KEYS } from "../../src/lib/cms/settings-def";
@@ -26,8 +25,8 @@ const UPLOADS = path.join(ROOT, "docs/source-snapshot/uploads");
 const CACHE = path.join(ROOT, ".local/seed-cache");
 const STORAGE = path.resolve(ROOT, process.env.STORAGE_DIR ?? "./storage/uploads");
 
-const conn = await mysql.createConnection({ uri: process.env.DATABASE_URL!, multipleStatements: true });
-const db = drizzle(conn, { schema, mode: "default" });
+await ensureSchema();
+const db = new Database();
 
 const CONTENT_TABLES = [
   "migration_map", "content_revisions", "seo_metadata", "media_usages", "page_sections", "pages", "navigation_items",
@@ -36,15 +35,17 @@ const CONTENT_TABLES = [
 ];
 
 async function guard() {
-  const [rows] = (await conn.query("SELECT (SELECT COUNT(*) FROM pages) + (SELECT COUNT(*) FROM media) AS n")) as unknown as [{ n: number }[]];
-  if (rows[0]!.n > 0) {
+  const [[p], [m]] = await Promise.all([db.select({ n: count() }).from(schema.pages), db.select({ n: count() }).from(schema.media)]);
+  if ((p!.n as number) + (m!.n as number) > 0) {
     if (!process.argv.includes("--force")) {
       console.error("Content already exists. Re-run with --force to wipe and reseed (never on production).");
       process.exit(1);
     }
-    await conn.query("SET FOREIGN_KEY_CHECKS = 0");
-    for (const t of CONTENT_TABLES) await conn.query(`TRUNCATE TABLE \`${t}\``);
-    await conn.query("SET FOREIGN_KEY_CHECKS = 1");
+    const mongo = await getDb();
+    for (const t of CONTENT_TABLES) {
+      await mongo.collection(t).deleteMany({});
+      await mongo.collection("_counters").deleteOne({ _id: t as never });
+    }
   }
 }
 
@@ -56,7 +57,7 @@ async function seedAccess() {
   }
   for (const [key, role] of Object.entries(ROLES)) {
     await db.insert(schema.roles).values({ key, name: role.name, description: role.description }).onDuplicateKeyUpdate({ set: { name: role.name, description: role.description } });
-    await db.delete(schema.rolePermissions).where(sql`role_key = ${key}`);
+    await db.delete(schema.rolePermissions).where(eq(schema.rolePermissions.roleKey, key));
     for (const p of role.permissions) await db.insert(schema.rolePermissions).values({ roleKey: key, permissionKey: p });
   }
 }
@@ -413,8 +414,8 @@ async function seedSettings() {
   for (const [key, value] of Object.entries(DEFAULT_SETTINGS)) {
     await db.insert(schema.siteSettings).values({ key, value, isPublic: !(PRIVATE_SETTING_KEYS as readonly string[]).includes(key) });
   }
-  await db.update(schema.siteSettings).set({ value: M("logo") }).where(sql`\`key\` = 'logoMediaId'`);
-  await db.update(schema.siteSettings).set({ value: M("hero-1") }).where(sql`\`key\` = 'defaultOgImageId'`);
+  await db.update(schema.siteSettings).set({ value: M("logo") }).where(eq(schema.siteSettings.key, "logoMediaId"));
+  await db.update(schema.siteSettings).set({ value: M("hero-1") }).where(eq(schema.siteSettings.key, "defaultOgImageId"));
   await mapItem(C.SRC.home, "contact details (schema.org LocalBusiness + tel: links)", "site_settings", null, "Four different phone/WhatsApp numbers on the live site; +91 93220 73068 used everywhere (Q1).");
   for (const provider of schema.ANALYTICS_PROVIDERS) {
     await db.insert(schema.analyticsConfiguration).values({ provider, isEnabled: false, requiresConsent: provider !== "gsc_verification" });
@@ -448,24 +449,23 @@ async function seedRedirects() {
 /* ------------------------------------------------------------------ usage index */
 
 async function rebuildMediaUsages() {
-  await conn.query("DELETE FROM media_usages");
-  await conn.query(`INSERT IGNORE INTO media_usages (media_id, entity_type, entity_id, field)
-    SELECT media_id, 'packages', package_id, 'images' FROM package_images
-    UNION ALL SELECT media_id, 'vehicles', vehicle_id, 'images' FROM vehicle_images
-    UNION ALL SELECT media_id, 'hotels', hotel_id, 'images' FROM hotel_images
-    UNION ALL SELECT image_id, 'destinations', id, 'imageId' FROM destinations WHERE image_id IS NOT NULL
-    UNION ALL SELECT og_image_id, 'seo', entity_id, CONCAT(entity_type, '.ogImage') FROM seo_metadata WHERE og_image_id IS NOT NULL`);
-  const [secs] = (await conn.query("SELECT page_id, type, data FROM page_sections")) as unknown as [{ page_id: number; type: string; data: unknown }[]];
+  await db.delete(schema.mediaUsages);
+  const seen = new Set<string>();
+  const add = async (mediaId: number | null, entityType: string, entityId: number, field: string) => {
+    if (!mediaId) return;
+    const k = [mediaId, entityType, entityId, field].join("|");
+    if (seen.has(k)) return;
+    seen.add(k);
+    await db.insert(schema.mediaUsages).values({ mediaId, entityType, entityId, field });
+  };
+  for (const r of await db.select().from(schema.packageImages)) await add(r.mediaId, "packages", r.packageId, "images");
+  for (const r of await db.select().from(schema.vehicleImages)) await add(r.mediaId, "vehicles", r.vehicleId, "images");
+  for (const r of await db.select().from(schema.hotelImages)) await add(r.mediaId, "hotels", r.hotelId, "images");
+  for (const r of await db.select().from(schema.destinations)) await add(r.imageId, "destinations", r.id, "imageId");
+  for (const r of await db.select().from(schema.seoMetadata)) await add(r.ogImageId, "seo", r.entityId, r.entityType + ".ogImage");
   const { sectionMediaIds } = await import("../../src/lib/cms/sections");
-  for (const s of secs) {
-    const data = typeof s.data === "string" ? JSON.parse(s.data) : s.data;
-    for (const id of sectionMediaIds(s.type as SectionType, data)) {
-      await conn.query("INSERT IGNORE INTO media_usages (media_id, entity_type, entity_id, field) VALUES (?, 'pages', ?, ?)", [id, s.page_id, `section.${s.type}`]);
-    }
-  }
-  for (const key of ["logoMediaId", "defaultOgImageId"]) {
-    await conn.query("INSERT IGNORE INTO media_usages (media_id, entity_type, entity_id, field) SELECT CAST(value AS UNSIGNED), 'settings', 0, ? FROM site_settings WHERE `key` = ? AND value <> CAST('null' AS JSON)", [key, key]);
-  }
+  for (const s of await db.select().from(schema.pageSections)) for (const id of sectionMediaIds(s.type as SectionType, s.data)) await add(id, "pages", s.pageId, "section." + s.type);
+  for (const r of await db.select().from(schema.siteSettings)) if (["logoMediaId", "defaultOgImageId"].includes(r.key) && typeof r.value === "number") await add(r.value, "settings", 0, r.key);
 }
 
 /* ------------------------------------------------------------------ run */
@@ -482,8 +482,8 @@ await seedPages();
 await seedNavigation();
 await seedRedirects();
 await rebuildMediaUsages();
-const [[counts]] = (await conn.query(
-  "SELECT (SELECT COUNT(*) FROM pages) pages, (SELECT COUNT(*) FROM page_sections) sections, (SELECT COUNT(*) FROM media) media, (SELECT COUNT(*) FROM packages) packages, (SELECT COUNT(*) FROM vehicles) vehicles, (SELECT COUNT(*) FROM hotels) hotels, (SELECT COUNT(*) FROM migration_map) mapped",
-)) as unknown as [[Record<string, number>]];
+const counts: Record<string, number> = {};
+for (const [k, t] of Object.entries({ pages: schema.pages, sections: schema.pageSections, media: schema.media, packages: schema.packages, vehicles: schema.vehicles, hotels: schema.hotels, mapped: schema.migrationMap })) counts[k] = (await db.select({ n: count() }).from(t))[0]!.n as number;
 console.log("Done:", counts);
-await conn.end();
+await closeDb();
+

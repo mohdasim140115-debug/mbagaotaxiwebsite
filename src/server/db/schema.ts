@@ -14,8 +14,8 @@ import {
   uniqueIndex,
   varchar,
   type AnyMySqlColumn,
-} from "drizzle-orm/mysql-core";
-import { sql } from "drizzle-orm";
+} from "@/server/db/orm";
+import { sql } from "@/server/db/orm";
 
 const id = () => bigint("id", { mode: "number", unsigned: true }).autoincrement().primaryKey();
 const fk = (name: string) => bigint(name, { mode: "number", unsigned: true });

@@ -1,6 +1,6 @@
 "use server";
 
-import { and, eq } from "drizzle-orm";
+import { and, eq } from "@/server/db/orm";
 import { db, schema } from "../db/client";
 import { audit } from "../audit";
 import { ENTITIES, isEntityKey, type EntityKey } from "@/lib/cms/entities";

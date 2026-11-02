@@ -1,6 +1,6 @@
 "use server";
 
-import { and, asc, eq, isNull, ne, sql } from "drizzle-orm";
+import { and, asc, eq, isNull, lt, ne, sql } from "@/server/db/orm";
 import { z } from "zod";
 import { db, schema } from "../db/client";
 import { audit } from "../audit";
@@ -276,9 +276,10 @@ export async function linkTargetsAction() {
 export async function purgeExpiredEnquiriesAction() {
   return guarded("enquiries.manage", async (user) => {
     const settings = await getAllSettings();
-    const [res] = await db.execute(sql`UPDATE enquiries SET name = '', phone = 'deleted', email = '', message = '', pickup = '', dropoff = '' WHERE created_at < UTC_TIMESTAMP() - INTERVAL ${settings.enquiryRetentionMonths} MONTH AND phone <> 'deleted'`);
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const n = (res as any).affectedRows ?? 0;
+    const cutoff = new Date();
+    cutoff.setMonth(cutoff.getMonth() - Number(settings.enquiryRetentionMonths));
+    const [res] = await db.update(schema.enquiries).set({ name: "", phone: "deleted", email: "", message: "", pickup: "", dropoff: "" }).where(and(lt(schema.enquiries.createdAt, cutoff), ne(schema.enquiries.phone, "deleted")));
+    const n = res?.affectedRows ?? 0;
     await audit(user.id, "enquiry.retention_purge", "enquiries", null, `Anonymised ${n} enquiries older than ${settings.enquiryRetentionMonths} months`);
     return { anonymised: n };
   });

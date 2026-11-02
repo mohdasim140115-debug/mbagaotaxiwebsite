@@ -1,6 +1,6 @@
 import "server-only";
-import { and, asc, desc, eq, getTableColumns, inArray, like, or, sql } from "drizzle-orm";
-import type { MySqlTable } from "drizzle-orm/mysql-core";
+import { and, asc, desc, eq, ne, getTableColumns, inArray, like, or, sql } from "@/server/db/orm";
+import type { Table as MySqlTable } from "@/server/db/orm";
 import { db, schema, type Tx } from "../db/client";
 import { ENTITIES, type EntityKey } from "@/lib/cms/entities";
 import { collectMediaIds, fieldsToZod } from "@/lib/cms/fields";
@@ -52,9 +52,9 @@ export class ValidationError extends Error {
 export async function listEntities(key: EntityKey, opts: { q?: string; status?: string } = {}) {
   const t = TABLES[key];
   const def = ENTITIES[key];
-  const conds = [];
+  const conds: any[] = [];
   if (opts.status && ["draft", "published", "archived"].includes(opts.status)) conds.push(eq(t.status, opts.status));
-  else conds.push(sql`${t.status} <> 'archived'`);
+  else conds.push(ne(t.status, "archived"));
   if (opts.q) conds.push(or(like(t[def.titleField], `%${opts.q}%`))!);
   const rows: any[] = await db.select().from(t).where(and(...conds)).orderBy(asc(t.position), asc(t.id));
   let fares: (typeof schema.vehicleFares.$inferSelect)[] = [];

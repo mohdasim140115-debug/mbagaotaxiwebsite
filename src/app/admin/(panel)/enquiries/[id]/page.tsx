@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { asc, desc, eq } from "drizzle-orm";
+import { asc, desc, eq } from "@/server/db/orm";
 import { db, schema } from "@/server/db/client";
 import { can, requireAdmin } from "@/server/auth/session";
 import { telHref, whatsappHref } from "@/lib/cms/settings-def";

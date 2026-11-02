@@ -1,4 +1,4 @@
-import { asc } from "drizzle-orm";
+import { asc } from "@/server/db/orm";
 import { db, schema } from "@/server/db/client";
 import { requireAdmin } from "@/server/auth/session";
 import { RedirectsManager } from "@/components/admin/redirects-manager";

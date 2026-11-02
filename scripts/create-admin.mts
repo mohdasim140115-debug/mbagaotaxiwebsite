@@ -8,7 +8,9 @@ import { config } from "dotenv";
 config({ path: process.env.ENV_FILE ?? ".env.local" });
 
 import { randomBytes } from "node:crypto";
-import mysql from "mysql2/promise";
+import { eq } from "../src/server/db/orm/kit";
+import { Database, closeDb, ensureSchema } from "../src/server/db/orm/engine";
+import * as schema from "../src/server/db/schema";
 import { hash } from "@node-rs/argon2";
 import { ROLES } from "../src/lib/permissions";
 
@@ -36,16 +38,15 @@ if (password.length < 12) {
   process.exit(1);
 }
 
-const conn = await mysql.createConnection({ uri: process.env.DATABASE_URL! });
+await ensureSchema();
+const db = new Database();
 const passwordHash = await hash(password, { memoryCost: 19456, timeCost: 2, parallelism: 1, outputLen: 32 });
-await conn.query(
-  `INSERT INTO admin_users (email, name, password_hash, role_key, is_active, must_change_password, password_changed_at)
-   VALUES (?, ?, ?, ?, 1, ?, UTC_TIMESTAMP())
-   ON DUPLICATE KEY UPDATE name = VALUES(name), password_hash = VALUES(password_hash), role_key = VALUES(role_key),
-     is_active = 1, failed_logins = 0, locked_until = NULL, must_change_password = VALUES(must_change_password), password_changed_at = UTC_TIMESTAMP()`,
-  [email, name, passwordHash, role, generated ? 1 : 0],
-);
-await conn.query("INSERT INTO audit_logs (action, entity_type, entity_id, summary) VALUES ('user.cli_create', 'admin_users', ?, ?)", [email, `CLI create/reset (${role})`]);
-await conn.end();
+const now = new Date();
+const [existing] = await db.select().from(schema.adminUsers).where(eq(schema.adminUsers.email, email));
+const fields = { name, passwordHash, roleKey: role, isActive: true, failedLogins: 0, lockedUntil: null, mustChangePassword: generated, passwordChangedAt: now };
+if (existing) await db.update(schema.adminUsers).set(fields).where(eq(schema.adminUsers.id, existing.id));
+else await db.insert(schema.adminUsers).values({ email, ...fields });
+await db.insert(schema.auditLogs).values({ action: "user.cli_create", entityType: "admin_users", entityId: email, summary: `CLI create/reset (${role})` });
+await closeDb();
 console.log(`Admin ready: ${email} (${role})`);
 if (generated) console.log(`Temporary password (shown once, must be changed at first login): ${password}`);

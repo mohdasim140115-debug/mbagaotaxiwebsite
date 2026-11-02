@@ -1,4 +1,4 @@
-import { asc, sql } from "drizzle-orm";
+import { asc, sql } from "@/server/db/orm";
 import { db, schema } from "@/server/db/client";
 import { requireAdmin } from "@/server/auth/session";
 import { Badge, Card, PageTitle } from "@/components/admin/ui";

@@ -8,13 +8,10 @@ const env = { ...process.env, ...parse(readFileSync(".env.test")), ENV_FILE: ".e
 if (!/_test\b/.test(env.DATABASE_URL)) throw new Error("Refusing to run: DATABASE_URL must point at a *_test database");
 
 const run = (cmd, extra = {}) => execSync(cmd, { stdio: "inherit", env: { ...env, ...extra } });
-const mysql = (await import("mysql2/promise")).default;
-const conn = await mysql.createConnection({ uri: env.DATABASE_URL, multipleStatements: true });
-const [tables] = await conn.query("SELECT table_name AS t FROM information_schema.tables WHERE table_schema = DATABASE()");
-await conn.query("SET FOREIGN_KEY_CHECKS = 0");
-for (const { t } of tables) await conn.query(`DROP TABLE IF EXISTS \`${t}\``);
-await conn.query("SET FOREIGN_KEY_CHECKS = 1");
-await conn.end();
+const { MongoClient } = await import("mongodb");
+const client = await new MongoClient(env.DATABASE_URL).connect();
+await client.db().dropDatabase();
+await client.close();
 rmSync(env.STORAGE_DIR, { recursive: true, force: true });
 
 run("npx tsx scripts/migrate.ts");

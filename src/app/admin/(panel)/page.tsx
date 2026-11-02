@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { desc, eq, sql, type SQL } from "drizzle-orm";
-import type { MySqlTable } from "drizzle-orm/mysql-core";
+import { desc, eq, sql, type SQL } from "@/server/db/orm";
+import type { Table as MySqlTable } from "@/server/db/orm";
 import { db, schema } from "@/server/db/client";
 import { can, requireAdmin } from "@/server/auth/session";
 import { publishDuePages } from "@/server/cms/page-store";

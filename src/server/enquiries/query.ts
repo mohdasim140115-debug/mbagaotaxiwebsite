@@ -1,5 +1,5 @@
 import "server-only";
-import { and, desc, eq, gte, like, lte, or, sql, type SQL } from "drizzle-orm";
+import { and, desc, eq, gte, like, lte, or, sql, type SQL } from "@/server/db/orm";
 import { db, schema } from "../db/client";
 
 export type EnquiryFilters = { q?: string; status?: string; type?: string; from?: string; to?: string; page?: number };

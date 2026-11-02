@@ -2,7 +2,7 @@ import "server-only";
 import path from "node:path";
 import { mkdir, readFile, unlink, writeFile } from "node:fs/promises";
 import sharp, { type Metadata } from "sharp";
-import { eq } from "drizzle-orm";
+import { eq } from "@/server/db/orm";
 import { db, schema } from "../db/client";
 import { randomToken, sha256 } from "../crypto";
 import { slugify } from "@/lib/utils";

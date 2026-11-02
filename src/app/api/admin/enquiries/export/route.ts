@@ -1,4 +1,4 @@
-import { desc } from "drizzle-orm";
+import { desc } from "@/server/db/orm";
 import { db, schema } from "@/server/db/client";
 import { getCurrentAdmin } from "@/server/auth/session";
 import { enquiryWhere } from "@/server/enquiries/query";

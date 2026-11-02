@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { cacheLife, cacheTag } from "next/cache";
-import { and, ne, sql } from "drizzle-orm";
+import { and, inArray, ne } from "@/server/db/orm";
 import { db, schema } from "@/server/db/client";
 import { CMS_TAG } from "@/server/cms/settings";
 
@@ -10,10 +10,11 @@ async function getCredits() {
   "use cache";
   cacheTag(CMS_TAG);
   cacheLife("max");
+  const used = [...new Set((await db.select({ mediaId: schema.mediaUsages.mediaId }).from(schema.mediaUsages)).map((u) => u.mediaId))];
   return db
     .select({ id: schema.media.id, alt: schema.media.altText, credit: schema.media.credit, sourceUrl: schema.media.sourceUrl })
     .from(schema.media)
-    .where(and(ne(schema.media.credit, ""), ne(schema.media.licenceStatus, "do_not_use"), sql`${schema.media.id} IN (SELECT media_id FROM media_usages)`));
+    .where(and(ne(schema.media.credit, ""), ne(schema.media.licenceStatus, "do_not_use"), inArray(schema.media.id, used)));
 }
 
 /** Attribution for openly licensed photos (required by CC BY / CC BY-SA licences). */
