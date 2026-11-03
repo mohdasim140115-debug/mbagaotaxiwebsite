@@ -65,7 +65,9 @@ async function loadKnownPaths(): Promise<Set<string> | null> {
 
 export async function proxy(request: NextRequest, event: NextFetchEvent) {
   const url = request.nextUrl;
-  const canonical = new URL(process.env.SITE_URL ?? "https://mbatravelsgoa.com");
+ const canonical = new URL(
+  process.env.SITE_URL ?? "https://mbatravelsgoa.in"
+);
   const host = request.headers.get("host") ?? "";
 
   if (host === `www.${canonical.host}`) {

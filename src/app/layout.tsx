@@ -16,7 +16,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.SITE_URL ?? "https://mbatravelsgoa.com"),
+  metadataBase: new URL(process.env.SITE_URL ?? "https://mbatravelsgoa.in"),
 };
 
 export const viewport: Viewport = {
