@@ -4,7 +4,7 @@
 
 import type { PublicSettings } from "@/lib/cms/settings-def";
 
-const SITE_URL = "https://mbatravelsgoa.in";
+const SITE_URL = "https://www.mbatravelsgoa.in";
 
 export function siteUrl(path = "/") {
   const base = SITE_URL.replace(/\/+$/, "");
